@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://oxygen-concentrator.my/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://oxygen-concentrator.my/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oxygen-concentrator.my/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oxygen-concentrator.my/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://oxygen-concentrator.my/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oxygen-concentrator.my/"/>
+  </url>
+
+  <!-- Sewa Page -->
+  <url>
+    <loc>https://oxygen-concentrator.my/sewa-oxygen-concentrator.html</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://oxygen-concentrator.my/sewa-oxygen-concentrator.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oxygen-concentrator.my/sewa-oxygen-concentrator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oxygen-concentrator.my/sewa-oxygen-concentrator.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://oxygen-concentrator.my/sewa-oxygen-concentrator.html"/>
+  </url>
+
+  <!-- Beli Page -->
+  <url>
+    <loc>https://oxygen-concentrator.my/beli-oxygen-concentrator.html</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://oxygen-concentrator.my/beli-oxygen-concentrator.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oxygen-concentrator.my/beli-oxygen-concentrator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oxygen-concentrator.my/beli-oxygen-concentrator.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://oxygen-concentrator.my/beli-oxygen-concentrator.html"/>
+  </url>
+
+  <!-- Kuala Lumpur Location Page -->
+  <url>
+    <loc>https://oxygen-concentrator.my/oxygen-concentrator-kuala-lumpur.html</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://oxygen-concentrator.my/oxygen-concentrator-kuala-lumpur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oxygen-concentrator.my/oxygen-concentrator-kuala-lumpur.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oxygen-concentrator.my/oxygen-concentrator-kuala-lumpur.html"/>
+  </url>
+
+  <!-- Selangor Location Page -->
+  <url>
+    <loc>https://oxygen-concentrator.my/oxygen-concentrator-selangor.html</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://oxygen-concentrator.my/oxygen-concentrator-selangor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oxygen-concentrator.my/oxygen-concentrator-selangor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oxygen-concentrator.my/oxygen-concentrator-selangor.html"/>
+  </url>
+
+  <!-- Penang Location Page -->
+  <url>
+    <loc>https://oxygen-concentrator.my/oxygen-concentrator-penang.html</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://oxygen-concentrator.my/oxygen-concentrator-penang.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oxygen-concentrator.my/oxygen-concentrator-penang.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oxygen-concentrator.my/oxygen-concentrator-penang.html"/>
+  </url>
+
+  <!-- Johor Location Page -->
+  <url>
+    <loc>https://oxygen-concentrator.my/oxygen-concentrator-johor.html</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://oxygen-concentrator.my/oxygen-concentrator-johor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oxygen-concentrator.my/oxygen-concentrator-johor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oxygen-concentrator.my/oxygen-concentrator-johor.html"/>
+  </url>
+
+  <!-- Panduan (Guide) Page -->
+  <url>
+    <loc>https://oxygen-concentrator.my/panduan-oxygen-concentrator.html</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://oxygen-concentrator.my/panduan-oxygen-concentrator.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oxygen-concentrator.my/panduan-oxygen-concentrator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oxygen-concentrator.my/panduan-oxygen-concentrator.html"/>
+  </url>
+
+</urlset>

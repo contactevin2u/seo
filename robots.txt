@@ -1,0 +1,27 @@
+# Robots.txt for oxygen-concentrator.my
+# Oxygen Concentrator Malaysia - Sewa & Beli
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://oxygen-concentrator.my/sitemap.xml
+
+# Crawl delay (optional, for politeness)
+Crawl-delay: 1
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Disallow admin/private areas (none currently)
+# Disallow: /admin/
