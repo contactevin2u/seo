@@ -49,6 +49,20 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- ========== BLOG PAGES (12 articles) ========== -->
+  <url><loc>https://oxygen-concentrator.my/blog/</loc><lastmod>2024-12-07</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oxygen-concentrator.my/blog/sewa-oxygen-concentrator-malaysia-panduan-lengkap.html</loc><lastmod>2024-12-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oxygen-concentrator.my/blog/oxygen-concentrator-vs-tong-oksigen.html</loc><lastmod>2024-12-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://oxygen-concentrator.my/blog/oxygen-concentrator-untuk-copd.html</loc><lastmod>2024-12-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://oxygen-concentrator.my/blog/portable-oxygen-concentrator-travel-umrah-haji.html</loc><lastmod>2024-12-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://oxygen-concentrator.my/blog/cara-guna-oxygen-concentrator.html</loc><lastmod>2024-12-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://oxygen-concentrator.my/blog/oxygen-concentrator-vs-nebulizer.html</loc><lastmod>2024-12-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://oxygen-concentrator.my/blog/oxygen-concentrator-vs-cpap.html</loc><lastmod>2024-12-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://oxygen-concentrator.my/blog/harga-oxygen-concentrator-malaysia-2024.html</loc><lastmod>2024-12-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://oxygen-concentrator.my/blog/oxygen-concentrator-untuk-covid-19-recovery.html</loc><lastmod>2024-12-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://oxygen-concentrator.my/blog/oxygen-concentrator-warga-emas.html</loc><lastmod>2024-12-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://oxygen-concentrator.my/blog/kos-elektrik-oxygen-concentrator.html</loc><lastmod>2024-12-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
   <!-- Main State Pages -->
   <url>
     <loc>https://oxygen-concentrator.my/oxygen-concentrator-kuala-lumpur.html</loc>

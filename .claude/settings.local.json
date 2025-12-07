@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "WebSearch"
+      "WebSearch",
+      "Bash(node generate-blogs.js:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
