@@ -248,7 +248,7 @@ nav .container {
 
 .product-image {
   height: 200px;
-  background: #f8f9fa;
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -260,7 +260,7 @@ nav .container {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  background: #f8f9fa;
+  background: transparent;
 }
 
 .product-info {
@@ -525,4 +525,85 @@ footer {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+/* Certificate badges - no background */
+.hero img[src*="kkm"],
+.hero img[src*="mda"],
+.hero img[src*="certificate"],
+.hero img[src*="lulus"] {
+  background: transparent !important;
+  mix-blend-mode: multiply;
+}
+
+/* Area cards hover effect */
+.area-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+.area-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* Improved table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: left;
+}
+
+/* Better mobile responsiveness */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+    padding: 0 15px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .areas-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Link hover animation */
+a {
+  transition: color 0.2s ease;
+}
+
+/* Product card image improvements */
+.product-image {
+  background: transparent;
+}
+
+.product-image img {
+  background: transparent;
+  mix-blend-mode: multiply;
 }
