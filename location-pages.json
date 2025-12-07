@@ -1,0 +1,1355 @@
+[
+  {
+    "state": "Selangor",
+    "city": "Petaling Jaya",
+    "path": "lokasi/selangor/petaling-jaya.html",
+    "areas": [
+      "SS2",
+      "Damansara Utama",
+      "Kelana Jaya",
+      "Taman SEA",
+      "Section 14",
+      "Section 17"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Shah Alam",
+    "path": "lokasi/selangor/shah-alam.html",
+    "areas": [
+      "Seksyen 7",
+      "Seksyen 13",
+      "Setia Alam",
+      "Kota Kemuning",
+      "Bukit Jelutong"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Subang Jaya",
+    "path": "lokasi/selangor/subang-jaya.html",
+    "areas": [
+      "USJ",
+      "Putra Heights",
+      "Bandar Sunway",
+      "SS15",
+      "SS18"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Klang",
+    "path": "lokasi/selangor/klang.html",
+    "areas": [
+      "Klang Utama",
+      "Bandar Bukit Tinggi",
+      "Bandar Botanic",
+      "Meru",
+      "Kapar"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Ampang",
+    "path": "lokasi/selangor/ampang.html",
+    "areas": [
+      "Ampang Jaya",
+      "Pandan Indah",
+      "Pandan Perdana",
+      "Taman TAR"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Kajang",
+    "path": "lokasi/selangor/kajang.html",
+    "areas": [
+      "Bandar Kajang",
+      "Sungai Chua",
+      "Taman Prima Saujana",
+      "Bandar Baru Bangi"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Puchong",
+    "path": "lokasi/selangor/puchong.html",
+    "areas": [
+      "Bandar Puteri",
+      "IOI Mall",
+      "Taman Puchong Utama",
+      "Bandar Kinrara"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Rawang",
+    "path": "lokasi/selangor/rawang.html",
+    "areas": [
+      "Bandar Country Homes",
+      "Taman Velox",
+      "Rawang Perdana"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Selayang",
+    "path": "lokasi/selangor/selayang.html",
+    "areas": [
+      "Selayang Baru",
+      "Taman Selayang",
+      "Batu Caves"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Serdang",
+    "path": "lokasi/selangor/serdang.html",
+    "areas": [
+      "Seri Kembangan",
+      "Taman Serdang Raya",
+      "UPM"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Cyberjaya",
+    "path": "lokasi/selangor/cyberjaya.html",
+    "areas": [
+      "Cyberjaya City Centre",
+      "Shaftsbury Square"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Putrajaya",
+    "path": "lokasi/selangor/putrajaya.html",
+    "areas": [
+      "Precinct 1-18",
+      "Presint Diplomatik"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Bangi",
+    "path": "lokasi/selangor/bangi.html",
+    "areas": [
+      "Bandar Baru Bangi",
+      "UKM",
+      "Kajang Utama"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Semenyih",
+    "path": "lokasi/selangor/semenyih.html",
+    "areas": [
+      "Bandar Rinching",
+      "Broga"
+    ]
+  },
+  {
+    "state": "Selangor",
+    "city": "Sepang",
+    "path": "lokasi/selangor/sepang.html",
+    "areas": [
+      "KLIA",
+      "Salak Tinggi",
+      "Bandar Baru Salak Tinggi"
+    ]
+  },
+  {
+    "state": "Kuala Lumpur",
+    "city": "Cheras",
+    "path": "lokasi/kuala-lumpur/cheras.html",
+    "areas": [
+      "Taman Connaught",
+      "Taman Midah",
+      "Cheras Perdana",
+      "Taman Yulek",
+      "Bandar Tun Hussein Onn"
+    ]
+  },
+  {
+    "state": "Kuala Lumpur",
+    "city": "Bangsar",
+    "path": "lokasi/kuala-lumpur/bangsar.html",
+    "areas": [
+      "Bangsar Baru",
+      "Lucky Garden",
+      "Bangsar South",
+      "Pantai Dalam"
+    ]
+  },
+  {
+    "state": "Kuala Lumpur",
+    "city": "Kepong",
+    "path": "lokasi/kuala-lumpur/kepong.html",
+    "areas": [
+      "Kepong Baru",
+      "Metro Prima",
+      "Desa Jaya",
+      "Menjalara",
+      "Taman Usahawan"
+    ]
+  },
+  {
+    "state": "Kuala Lumpur",
+    "city": "Setapak",
+    "path": "lokasi/kuala-lumpur/setapak.html",
+    "areas": [
+      "Wangsa Maju",
+      "Taman Melawati",
+      "Danau Kota",
+      "Setapak Jaya"
+    ]
+  },
+  {
+    "state": "Kuala Lumpur",
+    "city": "Mont Kiara",
+    "path": "lokasi/kuala-lumpur/mont-kiara.html",
+    "areas": [
+      "Sri Hartamas",
+      "Desa Sri Hartamas",
+      "Solaris",
+      "Plaza Mont Kiara"
+    ]
+  },
+  {
+    "state": "Kuala Lumpur",
+    "city": "Bukit Bintang",
+    "path": "lokasi/kuala-lumpur/bukit-bintang.html",
+    "areas": [
+      "KLCC",
+      "Pavilion",
+      "Times Square",
+      "Jalan Alor"
+    ]
+  },
+  {
+    "state": "Kuala Lumpur",
+    "city": "Sentul",
+    "path": "lokasi/kuala-lumpur/sentul.html",
+    "areas": [
+      "Sentul Raya",
+      "Sentul Pasar",
+      "The Maple"
+    ]
+  },
+  {
+    "state": "Kuala Lumpur",
+    "city": "Titiwangsa",
+    "path": "lokasi/kuala-lumpur/titiwangsa.html",
+    "areas": [
+      "Kampung Baru",
+      "Jalan Pahang",
+      "Chow Kit"
+    ]
+  },
+  {
+    "state": "Kuala Lumpur",
+    "city": "Segambut",
+    "path": "lokasi/kuala-lumpur/segambut.html",
+    "areas": [
+      "Desa Park City",
+      "Publika",
+      "Hartamas Heights"
+    ]
+  },
+  {
+    "state": "Kuala Lumpur",
+    "city": "Sri Petaling",
+    "path": "lokasi/kuala-lumpur/sri-petaling.html",
+    "areas": [
+      "OUG",
+      "Bukit Jalil",
+      "Sungai Besi",
+      "Awan Besar"
+    ]
+  },
+  {
+    "state": "Kuala Lumpur",
+    "city": "Taman Desa",
+    "path": "lokasi/kuala-lumpur/taman-desa.html",
+    "areas": [
+      "Kuchai Lama",
+      "Happy Garden",
+      "OUG Parklane"
+    ]
+  },
+  {
+    "state": "Kuala Lumpur",
+    "city": "Brickfields",
+    "path": "lokasi/kuala-lumpur/brickfields.html",
+    "areas": [
+      "KL Sentral",
+      "Little India",
+      "Bangsar nearby"
+    ]
+  },
+  {
+    "state": "Kuala Lumpur",
+    "city": "Jalan Ipoh",
+    "path": "lokasi/kuala-lumpur/jalan-ipoh.html",
+    "areas": [
+      "Taman Pelangi",
+      "Sentul Utara"
+    ]
+  },
+  {
+    "state": "Pulau Pinang",
+    "city": "George Town",
+    "path": "lokasi/penang/george-town.html",
+    "areas": [
+      "Komtar",
+      "Gurney Drive",
+      "Pulau Tikus",
+      "Tanjung Tokong",
+      "Tanjung Bungah"
+    ]
+  },
+  {
+    "state": "Pulau Pinang",
+    "city": "Butterworth",
+    "path": "lokasi/penang/butterworth.html",
+    "areas": [
+      "Raja Uda",
+      "Bagan Ajam",
+      "Bagan Dalam"
+    ]
+  },
+  {
+    "state": "Pulau Pinang",
+    "city": "Bayan Lepas",
+    "path": "lokasi/penang/bayan-lepas.html",
+    "areas": [
+      "Sungai Ara",
+      "Relau",
+      "Bayan Baru",
+      "Free Industrial Zone"
+    ]
+  },
+  {
+    "state": "Pulau Pinang",
+    "city": "Bukit Mertajam",
+    "path": "lokasi/penang/bukit-mertajam.html",
+    "areas": [
+      "Taman Cendana",
+      "Alma",
+      "Machang Bubok"
+    ]
+  },
+  {
+    "state": "Pulau Pinang",
+    "city": "Seberang Perai",
+    "path": "lokasi/penang/seberang-perai.html",
+    "areas": [
+      "Prai",
+      "Perai Industrial",
+      "Bukit Tengah"
+    ]
+  },
+  {
+    "state": "Pulau Pinang",
+    "city": "Air Itam",
+    "path": "lokasi/penang/air-itam.html",
+    "areas": [
+      "Kek Lok Si",
+      "Paya Terubong",
+      "Farlim"
+    ]
+  },
+  {
+    "state": "Pulau Pinang",
+    "city": "Jelutong",
+    "path": "lokasi/penang/jelutong.html",
+    "areas": [
+      "Sungai Pinang",
+      "Jelutong Express"
+    ]
+  },
+  {
+    "state": "Pulau Pinang",
+    "city": "Gelugor",
+    "path": "lokasi/penang/gelugor.html",
+    "areas": [
+      "USM",
+      "Sungai Dua",
+      "Minden Heights"
+    ]
+  },
+  {
+    "state": "Pulau Pinang",
+    "city": "Balik Pulau",
+    "path": "lokasi/penang/balik-pulau.html",
+    "areas": [
+      "Gertak Sanggul",
+      "Teluk Kumbar"
+    ]
+  },
+  {
+    "state": "Pulau Pinang",
+    "city": "Nibong Tebal",
+    "path": "lokasi/penang/nibong-tebal.html",
+    "areas": [
+      "Taman Sejahtera",
+      "Jawi"
+    ]
+  },
+  {
+    "state": "Pulau Pinang",
+    "city": "Kepala Batas",
+    "path": "lokasi/penang/kepala-batas.html",
+    "areas": [
+      "Tasek Gelugor",
+      "Bertam"
+    ]
+  },
+  {
+    "state": "Johor",
+    "city": "Johor Bahru",
+    "path": "lokasi/johor/johor-bahru.html",
+    "areas": [
+      "Taman Pelangi",
+      "Taman Century",
+      "Taman Molek",
+      "Taman Sentosa",
+      "Larkin"
+    ]
+  },
+  {
+    "state": "Johor",
+    "city": "Iskandar Puteri",
+    "path": "lokasi/johor/iskandar-puteri.html",
+    "areas": [
+      "Nusajaya",
+      "Medini",
+      "Puteri Harbour",
+      "Educity"
+    ]
+  },
+  {
+    "state": "Johor",
+    "city": "Kulai",
+    "path": "lokasi/johor/kulai.html",
+    "areas": [
+      "Bandar Putra",
+      "Senai",
+      "Kulai Jaya"
+    ]
+  },
+  {
+    "state": "Johor",
+    "city": "Skudai",
+    "path": "lokasi/johor/skudai.html",
+    "areas": [
+      "Taman Universiti",
+      "UTM",
+      "Taman Mutiara Rini"
+    ]
+  },
+  {
+    "state": "Johor",
+    "city": "Pasir Gudang",
+    "path": "lokasi/johor/pasir-gudang.html",
+    "areas": [
+      "Taman Pasir Putih",
+      "Masai",
+      "Permas Jaya"
+    ]
+  },
+  {
+    "state": "Johor",
+    "city": "Pontian",
+    "path": "lokasi/johor/pontian.html",
+    "areas": [
+      "Pekan Nanas",
+      "Benut"
+    ]
+  },
+  {
+    "state": "Johor",
+    "city": "Kota Tinggi",
+    "path": "lokasi/johor/kota-tinggi.html",
+    "areas": [
+      "Bandar Penawar",
+      "Desaru"
+    ]
+  },
+  {
+    "state": "Johor",
+    "city": "Muar",
+    "path": "lokasi/johor/muar.html",
+    "areas": [
+      "Bakri",
+      "Parit Jawa",
+      "Tangkak"
+    ]
+  },
+  {
+    "state": "Johor",
+    "city": "Batu Pahat",
+    "path": "lokasi/johor/batu-pahat.html",
+    "areas": [
+      "Taman Bukit Pasir",
+      "Yong Peng"
+    ]
+  },
+  {
+    "state": "Johor",
+    "city": "Kluang",
+    "path": "lokasi/johor/kluang.html",
+    "areas": [
+      "Taman Sri Kluang",
+      "Paloh"
+    ]
+  },
+  {
+    "state": "Johor",
+    "city": "Segamat",
+    "path": "lokasi/johor/segamat.html",
+    "areas": [
+      "Bandar Segamat",
+      "Buloh Kasap"
+    ]
+  },
+  {
+    "state": "Johor",
+    "city": "Mersing",
+    "path": "lokasi/johor/mersing.html",
+    "areas": [
+      "Endau",
+      "Tioman Ferry"
+    ]
+  },
+  {
+    "state": "Johor",
+    "city": "Gelang Patah",
+    "path": "lokasi/johor/gelang-patah.html",
+    "areas": [
+      "Taman Nusa Perintis",
+      "Tuas Second Link"
+    ]
+  },
+  {
+    "state": "Perak",
+    "city": "Ipoh",
+    "path": "lokasi/perak/ipoh.html",
+    "areas": [
+      "Ipoh Garden",
+      "Taman Cempaka",
+      "Greentown",
+      "Falim",
+      "Bercham"
+    ]
+  },
+  {
+    "state": "Perak",
+    "city": "Taiping",
+    "path": "lokasi/perak/taiping.html",
+    "areas": [
+      "Taman Tasik",
+      "Kamunting",
+      "Aulong"
+    ]
+  },
+  {
+    "state": "Perak",
+    "city": "Teluk Intan",
+    "path": "lokasi/perak/teluk-intan.html",
+    "areas": [
+      "Bandar Teluk Intan",
+      "Changkat Jong"
+    ]
+  },
+  {
+    "state": "Perak",
+    "city": "Sitiawan",
+    "path": "lokasi/perak/sitiawan.html",
+    "areas": [
+      "Manjung",
+      "Lumut",
+      "Pangkor"
+    ]
+  },
+  {
+    "state": "Perak",
+    "city": "Kampar",
+    "path": "lokasi/perak/kampar.html",
+    "areas": [
+      "Taman Kampar",
+      "UTAR"
+    ]
+  },
+  {
+    "state": "Perak",
+    "city": "Batu Gajah",
+    "path": "lokasi/perak/batu-gajah.html",
+    "areas": [
+      "Taman Batu Gajah",
+      "Pusing"
+    ]
+  },
+  {
+    "state": "Perak",
+    "city": "Sungai Petani",
+    "path": "lokasi/perak/sungai-petani.html",
+    "areas": [
+      "Bandar Sungai Petani"
+    ]
+  },
+  {
+    "state": "Perak",
+    "city": "Gopeng",
+    "path": "lokasi/perak/gopeng.html",
+    "areas": [
+      "Taman Gopeng",
+      "Kota Bahru"
+    ]
+  },
+  {
+    "state": "Perak",
+    "city": "Tanjung Malim",
+    "path": "lokasi/perak/tanjung-malim.html",
+    "areas": [
+      "UPSI",
+      "Behrang"
+    ]
+  },
+  {
+    "state": "Perak",
+    "city": "Kuala Kangsar",
+    "path": "lokasi/perak/kuala-kangsar.html",
+    "areas": [
+      "Bandar Kuala Kangsar",
+      "Istana Iskandariah"
+    ]
+  },
+  {
+    "state": "Kedah",
+    "city": "Alor Setar",
+    "path": "lokasi/kedah/alor-setar.html",
+    "areas": [
+      "Bandar Alor Setar",
+      "Taman Ria",
+      "Mergong"
+    ]
+  },
+  {
+    "state": "Kedah",
+    "city": "Sungai Petani",
+    "path": "lokasi/kedah/sungai-petani.html",
+    "areas": [
+      "Taman Ria Jaya",
+      "Taman Pekan Baru",
+      "Bandar Laguna Merbok"
+    ]
+  },
+  {
+    "state": "Kedah",
+    "city": "Kulim",
+    "path": "lokasi/kedah/kulim.html",
+    "areas": [
+      "Kulim Hi-Tech Park",
+      "Bandar Putra Kulim"
+    ]
+  },
+  {
+    "state": "Kedah",
+    "city": "Langkawi",
+    "path": "lokasi/kedah/langkawi.html",
+    "areas": [
+      "Kuah",
+      "Pantai Cenang",
+      "Padang Matsirat"
+    ]
+  },
+  {
+    "state": "Kedah",
+    "city": "Jitra",
+    "path": "lokasi/kedah/jitra.html",
+    "areas": [
+      "Changlun",
+      "Kodiang"
+    ]
+  },
+  {
+    "state": "Kedah",
+    "city": "Baling",
+    "path": "lokasi/kedah/baling.html",
+    "areas": [
+      "Bandar Baling",
+      "Kupang"
+    ]
+  },
+  {
+    "state": "Kedah",
+    "city": "Yan",
+    "path": "lokasi/kedah/yan.html",
+    "areas": [
+      "Gurun",
+      "Guar Chempedak"
+    ]
+  },
+  {
+    "state": "Kedah",
+    "city": "Pendang",
+    "path": "lokasi/kedah/pendang.html",
+    "areas": [
+      "Bandar Pendang",
+      "Tokai"
+    ]
+  },
+  {
+    "state": "Negeri Sembilan",
+    "city": "Seremban",
+    "path": "lokasi/negeri-sembilan/seremban.html",
+    "areas": [
+      "Seremban 2",
+      "Taman Bukit Kepayang",
+      "Rasah Jaya",
+      "Senawang"
+    ]
+  },
+  {
+    "state": "Negeri Sembilan",
+    "city": "Port Dickson",
+    "path": "lokasi/negeri-sembilan/port-dickson.html",
+    "areas": [
+      "Teluk Kemang",
+      "Si Rusa",
+      "Blue Lagoon"
+    ]
+  },
+  {
+    "state": "Negeri Sembilan",
+    "city": "Nilai",
+    "path": "lokasi/negeri-sembilan/nilai.html",
+    "areas": [
+      "Putra Nilai",
+      "INTI",
+      "Bandar Baru Nilai"
+    ]
+  },
+  {
+    "state": "Negeri Sembilan",
+    "city": "Bahau",
+    "path": "lokasi/negeri-sembilan/bahau.html",
+    "areas": [
+      "Bandar Bahau",
+      "Serting"
+    ]
+  },
+  {
+    "state": "Negeri Sembilan",
+    "city": "Kuala Pilah",
+    "path": "lokasi/negeri-sembilan/kuala-pilah.html",
+    "areas": [
+      "Bandar Kuala Pilah",
+      "Juasseh"
+    ]
+  },
+  {
+    "state": "Negeri Sembilan",
+    "city": "Tampin",
+    "path": "lokasi/negeri-sembilan/tampin.html",
+    "areas": [
+      "Gemas",
+      "Gemencheh"
+    ]
+  },
+  {
+    "state": "Negeri Sembilan",
+    "city": "Rembau",
+    "path": "lokasi/negeri-sembilan/rembau.html",
+    "areas": [
+      "Bandar Rembau",
+      "Pedas"
+    ]
+  },
+  {
+    "state": "Melaka",
+    "city": "Melaka City",
+    "path": "lokasi/melaka/melaka-city.html",
+    "areas": [
+      "Jonker Street",
+      "Kota Laksamana",
+      "Taman Melaka Raya",
+      "Ayer Keroh"
+    ]
+  },
+  {
+    "state": "Melaka",
+    "city": "Alor Gajah",
+    "path": "lokasi/melaka/alor-gajah.html",
+    "areas": [
+      "Bandar Alor Gajah",
+      "Masjid Tanah"
+    ]
+  },
+  {
+    "state": "Melaka",
+    "city": "Jasin",
+    "path": "lokasi/melaka/jasin.html",
+    "areas": [
+      "Bandar Jasin",
+      "Merlimau"
+    ]
+  },
+  {
+    "state": "Melaka",
+    "city": "Ayer Keroh",
+    "path": "lokasi/melaka/ayer-keroh.html",
+    "areas": [
+      "MITC",
+      "Zoo Melaka",
+      "Taman Tasik"
+    ]
+  },
+  {
+    "state": "Melaka",
+    "city": "Batu Berendam",
+    "path": "lokasi/melaka/batu-berendam.html",
+    "areas": [
+      "Taman Merdeka",
+      "Krubong"
+    ]
+  },
+  {
+    "state": "Melaka",
+    "city": "Bukit Katil",
+    "path": "lokasi/melaka/bukit-katil.html",
+    "areas": [
+      "Taman Bukit Katil",
+      "UTEM"
+    ]
+  },
+  {
+    "state": "Pahang",
+    "city": "Kuantan",
+    "path": "lokasi/pahang/kuantan.html",
+    "areas": [
+      "Indera Mahkota",
+      "Taman Tas",
+      "Bandar Satelit",
+      "Teluk Cempedak"
+    ]
+  },
+  {
+    "state": "Pahang",
+    "city": "Temerloh",
+    "path": "lokasi/pahang/temerloh.html",
+    "areas": [
+      "Bandar Temerloh",
+      "Mentakab"
+    ]
+  },
+  {
+    "state": "Pahang",
+    "city": "Bentong",
+    "path": "lokasi/pahang/bentong.html",
+    "areas": [
+      "Bandar Bentong",
+      "Karak"
+    ]
+  },
+  {
+    "state": "Pahang",
+    "city": "Raub",
+    "path": "lokasi/pahang/raub.html",
+    "areas": [
+      "Bandar Raub",
+      "Sungai Ruan"
+    ]
+  },
+  {
+    "state": "Pahang",
+    "city": "Cameron Highlands",
+    "path": "lokasi/pahang/cameron-highlands.html",
+    "areas": [
+      "Tanah Rata",
+      "Brinchang",
+      "Ringlet"
+    ]
+  },
+  {
+    "state": "Pahang",
+    "city": "Genting Highlands",
+    "path": "lokasi/pahang/genting-highlands.html",
+    "areas": [
+      "Gohtong Jaya",
+      "Genting Sempah"
+    ]
+  },
+  {
+    "state": "Pahang",
+    "city": "Jerantut",
+    "path": "lokasi/pahang/jerantut.html",
+    "areas": [
+      "Bandar Jerantut",
+      "Taman Negara Gateway"
+    ]
+  },
+  {
+    "state": "Pahang",
+    "city": "Pekan",
+    "path": "lokasi/pahang/pekan.html",
+    "areas": [
+      "Bandar Pekan",
+      "Nenasi"
+    ]
+  },
+  {
+    "state": "Pahang",
+    "city": "Rompin",
+    "path": "lokasi/pahang/rompin.html",
+    "areas": [
+      "Bandar Tun Razak",
+      "Kuala Rompin"
+    ]
+  },
+  {
+    "state": "Pahang",
+    "city": "Lipis",
+    "path": "lokasi/pahang/lipis.html",
+    "areas": [
+      "Bandar Kuala Lipis",
+      "Padang Tengku"
+    ]
+  },
+  {
+    "state": "Terengganu",
+    "city": "Kuala Terengganu",
+    "path": "lokasi/terengganu/kuala-terengganu.html",
+    "areas": [
+      "Bandar Kuala Terengganu",
+      "Manir",
+      "Gong Badak",
+      "Chendering"
+    ]
+  },
+  {
+    "state": "Terengganu",
+    "city": "Kemaman",
+    "path": "lokasi/terengganu/kemaman.html",
+    "areas": [
+      "Chukai",
+      "Kerteh",
+      "Paka"
+    ]
+  },
+  {
+    "state": "Terengganu",
+    "city": "Dungun",
+    "path": "lokasi/terengganu/dungun.html",
+    "areas": [
+      "Bandar Dungun",
+      "Kuala Abang"
+    ]
+  },
+  {
+    "state": "Terengganu",
+    "city": "Marang",
+    "path": "lokasi/terengganu/marang.html",
+    "areas": [
+      "Bandar Marang",
+      "Rusila"
+    ]
+  },
+  {
+    "state": "Terengganu",
+    "city": "Besut",
+    "path": "lokasi/terengganu/besut.html",
+    "areas": [
+      "Kuala Besut",
+      "Kampung Raja"
+    ]
+  },
+  {
+    "state": "Terengganu",
+    "city": "Setiu",
+    "path": "lokasi/terengganu/setiu.html",
+    "areas": [
+      "Penarik",
+      "Merang"
+    ]
+  },
+  {
+    "state": "Terengganu",
+    "city": "Hulu Terengganu",
+    "path": "lokasi/terengganu/hulu-terengganu.html",
+    "areas": [
+      "Kuala Berang",
+      "Ajil"
+    ]
+  },
+  {
+    "state": "Kelantan",
+    "city": "Kota Bharu",
+    "path": "lokasi/kelantan/kota-bharu.html",
+    "areas": [
+      "Bandar Kota Bharu",
+      "Kubang Kerian",
+      "Wakaf Bharu",
+      "Pengkalan Chepa"
+    ]
+  },
+  {
+    "state": "Kelantan",
+    "city": "Pasir Mas",
+    "path": "lokasi/kelantan/pasir-mas.html",
+    "areas": [
+      "Bandar Pasir Mas",
+      "Rantau Panjang"
+    ]
+  },
+  {
+    "state": "Kelantan",
+    "city": "Tumpat",
+    "path": "lokasi/kelantan/tumpat.html",
+    "areas": [
+      "Bandar Tumpat",
+      "Pengkalan Kubor"
+    ]
+  },
+  {
+    "state": "Kelantan",
+    "city": "Tanah Merah",
+    "path": "lokasi/kelantan/tanah-merah.html",
+    "areas": [
+      "Bandar Tanah Merah",
+      "Bukit Bunga"
+    ]
+  },
+  {
+    "state": "Kelantan",
+    "city": "Machang",
+    "path": "lokasi/kelantan/machang.html",
+    "areas": [
+      "Bandar Machang",
+      "Temangan"
+    ]
+  },
+  {
+    "state": "Kelantan",
+    "city": "Kuala Krai",
+    "path": "lokasi/kelantan/kuala-krai.html",
+    "areas": [
+      "Bandar Kuala Krai",
+      "Dabong"
+    ]
+  },
+  {
+    "state": "Kelantan",
+    "city": "Gua Musang",
+    "path": "lokasi/kelantan/gua-musang.html",
+    "areas": [
+      "Bandar Gua Musang",
+      "Chiku"
+    ]
+  },
+  {
+    "state": "Kelantan",
+    "city": "Bachok",
+    "path": "lokasi/kelantan/bachok.html",
+    "areas": [
+      "Bandar Bachok",
+      "Pantai Irama"
+    ]
+  },
+  {
+    "state": "Sabah",
+    "city": "Kota Kinabalu",
+    "path": "lokasi/sabah/kota-kinabalu.html",
+    "areas": [
+      "Likas",
+      "Luyang",
+      "Kepayan",
+      "Penampang",
+      "Inanam",
+      "Kolombong"
+    ]
+  },
+  {
+    "state": "Sabah",
+    "city": "Sandakan",
+    "path": "lokasi/sabah/sandakan.html",
+    "areas": [
+      "Bandar Sandakan",
+      "Mile 4",
+      "Sepilok"
+    ]
+  },
+  {
+    "state": "Sabah",
+    "city": "Tawau",
+    "path": "lokasi/sabah/tawau.html",
+    "areas": [
+      "Bandar Tawau",
+      "Fajar",
+      "Sabindo"
+    ]
+  },
+  {
+    "state": "Sabah",
+    "city": "Lahad Datu",
+    "path": "lokasi/sabah/lahad-datu.html",
+    "areas": [
+      "Bandar Lahad Datu",
+      "Silabukan"
+    ]
+  },
+  {
+    "state": "Sabah",
+    "city": "Keningau",
+    "path": "lokasi/sabah/keningau.html",
+    "areas": [
+      "Bandar Keningau",
+      "Apin-Apin"
+    ]
+  },
+  {
+    "state": "Sabah",
+    "city": "Semporna",
+    "path": "lokasi/sabah/semporna.html",
+    "areas": [
+      "Bandar Semporna",
+      "Sipadan Gateway"
+    ]
+  },
+  {
+    "state": "Sabah",
+    "city": "Kudat",
+    "path": "lokasi/sabah/kudat.html",
+    "areas": [
+      "Bandar Kudat",
+      "Tip of Borneo"
+    ]
+  },
+  {
+    "state": "Sabah",
+    "city": "Ranau",
+    "path": "lokasi/sabah/ranau.html",
+    "areas": [
+      "Bandar Ranau",
+      "Kundasang",
+      "Mount Kinabalu"
+    ]
+  },
+  {
+    "state": "Sabah",
+    "city": "Beaufort",
+    "path": "lokasi/sabah/beaufort.html",
+    "areas": [
+      "Bandar Beaufort",
+      "Membakut"
+    ]
+  },
+  {
+    "state": "Sabah",
+    "city": "Papar",
+    "path": "lokasi/sabah/papar.html",
+    "areas": [
+      "Bandar Papar",
+      "Kinarut"
+    ]
+  },
+  {
+    "state": "Sabah",
+    "city": "Tuaran",
+    "path": "lokasi/sabah/tuaran.html",
+    "areas": [
+      "Bandar Tuaran",
+      "Tamparuli"
+    ]
+  },
+  {
+    "state": "Sabah",
+    "city": "Kunak",
+    "path": "lokasi/sabah/kunak.html",
+    "areas": [
+      "Bandar Kunak",
+      "Tungku"
+    ]
+  },
+  {
+    "state": "Sarawak",
+    "city": "Kuching",
+    "path": "lokasi/sarawak/kuching.html",
+    "areas": [
+      "Pending",
+      "Stutong",
+      "BDC",
+      "Tabuan Jaya",
+      "Kota Samarahan"
+    ]
+  },
+  {
+    "state": "Sarawak",
+    "city": "Miri",
+    "path": "lokasi/sarawak/miri.html",
+    "areas": [
+      "Bandar Miri",
+      "Pujut",
+      "Senadin",
+      "Lutong"
+    ]
+  },
+  {
+    "state": "Sarawak",
+    "city": "Sibu",
+    "path": "lokasi/sarawak/sibu.html",
+    "areas": [
+      "Bandar Sibu",
+      "Bukit Assek",
+      "Salim"
+    ]
+  },
+  {
+    "state": "Sarawak",
+    "city": "Bintulu",
+    "path": "lokasi/sarawak/bintulu.html",
+    "areas": [
+      "Bandar Bintulu",
+      "Tanjung Kidurong",
+      "Taman Tanjung"
+    ]
+  },
+  {
+    "state": "Sarawak",
+    "city": "Sri Aman",
+    "path": "lokasi/sarawak/sri-aman.html",
+    "areas": [
+      "Bandar Sri Aman",
+      "Engkilili"
+    ]
+  },
+  {
+    "state": "Sarawak",
+    "city": "Sarikei",
+    "path": "lokasi/sarawak/sarikei.html",
+    "areas": [
+      "Bandar Sarikei",
+      "Bintangor"
+    ]
+  },
+  {
+    "state": "Sarawak",
+    "city": "Kapit",
+    "path": "lokasi/sarawak/kapit.html",
+    "areas": [
+      "Bandar Kapit",
+      "Belaga"
+    ]
+  },
+  {
+    "state": "Sarawak",
+    "city": "Mukah",
+    "path": "lokasi/sarawak/mukah.html",
+    "areas": [
+      "Bandar Mukah",
+      "Dalat"
+    ]
+  },
+  {
+    "state": "Sarawak",
+    "city": "Limbang",
+    "path": "lokasi/sarawak/limbang.html",
+    "areas": [
+      "Bandar Limbang",
+      "Nanga Medamit"
+    ]
+  },
+  {
+    "state": "Sarawak",
+    "city": "Lawas",
+    "path": "lokasi/sarawak/lawas.html",
+    "areas": [
+      "Bandar Lawas",
+      "Trusan"
+    ]
+  },
+  {
+    "state": "Sarawak",
+    "city": "Betong",
+    "path": "lokasi/sarawak/betong.html",
+    "areas": [
+      "Bandar Betong",
+      "Spaoh"
+    ]
+  },
+  {
+    "state": "Sarawak",
+    "city": "Saratok",
+    "path": "lokasi/sarawak/saratok.html",
+    "areas": [
+      "Bandar Saratok",
+      "Pusa"
+    ]
+  },
+  {
+    "state": "Labuan",
+    "city": "Victoria",
+    "path": "lokasi/labuan/victoria.html",
+    "areas": [
+      "Bandar Labuan",
+      "Financial Park",
+      "Labuan Town"
+    ]
+  },
+  {
+    "state": "Labuan",
+    "city": "Rancha-Rancha",
+    "path": "lokasi/labuan/rancha-rancha.html",
+    "areas": [
+      "Kampung Rancha-Rancha",
+      "Tanjung Kubong"
+    ]
+  },
+  {
+    "state": "Labuan",
+    "city": "Layang-Layangan",
+    "path": "lokasi/labuan/layang-layangan.html",
+    "areas": [
+      "Kampung Layang-Layangan",
+      "Batu Manikar"
+    ]
+  },
+  {
+    "state": "Perlis",
+    "city": "Kangar",
+    "path": "lokasi/perlis/kangar.html",
+    "areas": [
+      "Bandar Kangar",
+      "Taman Kayangan",
+      "Jejawi"
+    ]
+  },
+  {
+    "state": "Perlis",
+    "city": "Arau",
+    "path": "lokasi/perlis/arau.html",
+    "areas": [
+      "UniMAP",
+      "Tambun Tulang"
+    ]
+  },
+  {
+    "state": "Perlis",
+    "city": "Padang Besar",
+    "path": "lokasi/perlis/padang-besar.html",
+    "areas": [
+      "Border Town",
+      "Pekan Padang Besar"
+    ]
+  },
+  {
+    "state": "Perlis",
+    "city": "Kuala Perlis",
+    "path": "lokasi/perlis/kuala-perlis.html",
+    "areas": [
+      "Jetty Area",
+      "Kuala Perlis Town"
+    ]
+  }
+]
