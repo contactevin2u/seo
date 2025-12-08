@@ -1,0 +1,121 @@
+# Enable URL Rewriting
+RewriteEngine On
+RewriteBase /
+
+# Remove .html extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# Redirect old URLs to new clean URLs (301 Permanent Redirects)
+
+# Main pages
+RewriteRule ^sewa-oxygen-concentrator\.html$ /sewa-oxygen-concentrator [R=301,L]
+RewriteRule ^beli-oxygen-concentrator\.html$ /beli-oxygen-concentrator [R=301,L]
+RewriteRule ^oxygen-concentrator-kuala-lumpur\.html$ /oxygen-concentrator-kuala-lumpur [R=301,L]
+RewriteRule ^oxygen-concentrator-selangor\.html$ /oxygen-concentrator-selangor [R=301,L]
+RewriteRule ^oxygen-concentrator-penang\.html$ /oxygen-concentrator-penang [R=301,L]
+RewriteRule ^oxygen-concentrator-johor\.html$ /oxygen-concentrator-johor [R=301,L]
+
+# Old location pages to new SEO-friendly URLs
+# Selangor
+RewriteRule ^lokasi/selangor/petaling-jaya\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-petaling-jaya [R=301,L]
+RewriteRule ^lokasi/selangor/shah-alam\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-shah-alam [R=301,L]
+RewriteRule ^lokasi/selangor/subang-jaya\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-subang-jaya [R=301,L]
+RewriteRule ^lokasi/selangor/klang\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-klang [R=301,L]
+RewriteRule ^lokasi/selangor/kajang\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-kajang [R=301,L]
+RewriteRule ^lokasi/selangor/ampang\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-ampang [R=301,L]
+RewriteRule ^lokasi/selangor/bangi\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-bangi [R=301,L]
+RewriteRule ^lokasi/selangor/cyberjaya\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-cyberjaya [R=301,L]
+RewriteRule ^lokasi/selangor/puchong\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-puchong [R=301,L]
+RewriteRule ^lokasi/selangor/putrajaya\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-putrajaya [R=301,L]
+RewriteRule ^lokasi/selangor/rawang\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-rawang [R=301,L]
+RewriteRule ^lokasi/selangor/selayang\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-selayang [R=301,L]
+RewriteRule ^lokasi/selangor/semenyih\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-semenyih [R=301,L]
+RewriteRule ^lokasi/selangor/sepang\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-sepang [R=301,L]
+RewriteRule ^lokasi/selangor/serdang\.html$ /sewa-oksigen-lokasi/rent-oxygen-selangor/sewa-mesin-oksigen-serdang [R=301,L]
+
+# Kuala Lumpur
+RewriteRule ^lokasi/kuala-lumpur/bangsar\.html$ /sewa-oksigen-lokasi/rent-oxygen-kuala-lumpur/sewa-mesin-oksigen-bangsar [R=301,L]
+RewriteRule ^lokasi/kuala-lumpur/brickfields\.html$ /sewa-oksigen-lokasi/rent-oxygen-kuala-lumpur/sewa-mesin-oksigen-brickfields [R=301,L]
+RewriteRule ^lokasi/kuala-lumpur/bukit-bintang\.html$ /sewa-oksigen-lokasi/rent-oxygen-kuala-lumpur/sewa-mesin-oksigen-bukit-bintang [R=301,L]
+RewriteRule ^lokasi/kuala-lumpur/cheras\.html$ /sewa-oksigen-lokasi/rent-oxygen-kuala-lumpur/sewa-mesin-oksigen-cheras [R=301,L]
+RewriteRule ^lokasi/kuala-lumpur/jalan-ipoh\.html$ /sewa-oksigen-lokasi/rent-oxygen-kuala-lumpur/sewa-mesin-oksigen-jalan-ipoh [R=301,L]
+RewriteRule ^lokasi/kuala-lumpur/kepong\.html$ /sewa-oksigen-lokasi/rent-oxygen-kuala-lumpur/sewa-mesin-oksigen-kepong [R=301,L]
+RewriteRule ^lokasi/kuala-lumpur/mont-kiara\.html$ /sewa-oksigen-lokasi/rent-oxygen-kuala-lumpur/sewa-mesin-oksigen-mont-kiara [R=301,L]
+RewriteRule ^lokasi/kuala-lumpur/segambut\.html$ /sewa-oksigen-lokasi/rent-oxygen-kuala-lumpur/sewa-mesin-oksigen-segambut [R=301,L]
+RewriteRule ^lokasi/kuala-lumpur/sentul\.html$ /sewa-oksigen-lokasi/rent-oxygen-kuala-lumpur/sewa-mesin-oksigen-sentul [R=301,L]
+RewriteRule ^lokasi/kuala-lumpur/setapak\.html$ /sewa-oksigen-lokasi/rent-oxygen-kuala-lumpur/sewa-mesin-oksigen-setapak [R=301,L]
+RewriteRule ^lokasi/kuala-lumpur/sri-petaling\.html$ /sewa-oksigen-lokasi/rent-oxygen-kuala-lumpur/sewa-mesin-oksigen-sri-petaling [R=301,L]
+RewriteRule ^lokasi/kuala-lumpur/taman-desa\.html$ /sewa-oksigen-lokasi/rent-oxygen-kuala-lumpur/sewa-mesin-oksigen-taman-desa [R=301,L]
+RewriteRule ^lokasi/kuala-lumpur/titiwangsa\.html$ /sewa-oksigen-lokasi/rent-oxygen-kuala-lumpur/sewa-mesin-oksigen-titiwangsa [R=301,L]
+
+# Johor
+RewriteRule ^lokasi/johor/(.*)\.html$ /sewa-oksigen-lokasi/rent-oxygen-johor/sewa-mesin-oksigen-$1 [R=301,L]
+
+# Penang
+RewriteRule ^lokasi/penang/(.*)\.html$ /sewa-oksigen-lokasi/rent-oxygen-penang/sewa-mesin-oksigen-$1 [R=301,L]
+
+# Perak
+RewriteRule ^lokasi/perak/(.*)\.html$ /sewa-oksigen-lokasi/rent-oxygen-perak/sewa-mesin-oksigen-$1 [R=301,L]
+
+# Melaka
+RewriteRule ^lokasi/melaka/(.*)\.html$ /sewa-oksigen-lokasi/rent-oxygen-melaka/sewa-mesin-oksigen-$1 [R=301,L]
+
+# Negeri Sembilan
+RewriteRule ^lokasi/negeri-sembilan/(.*)\.html$ /sewa-oksigen-lokasi/rent-oxygen-negeri-sembilan/sewa-mesin-oksigen-$1 [R=301,L]
+
+# Kedah
+RewriteRule ^lokasi/kedah/(.*)\.html$ /sewa-oksigen-lokasi/rent-oxygen-kedah/sewa-mesin-oksigen-$1 [R=301,L]
+
+# Kelantan
+RewriteRule ^lokasi/kelantan/(.*)\.html$ /sewa-oksigen-lokasi/rent-oxygen-kelantan/sewa-mesin-oksigen-$1 [R=301,L]
+
+# Terengganu
+RewriteRule ^lokasi/terengganu/(.*)\.html$ /sewa-oksigen-lokasi/rent-oxygen-terengganu/sewa-mesin-oksigen-$1 [R=301,L]
+
+# Pahang
+RewriteRule ^lokasi/pahang/(.*)\.html$ /sewa-oksigen-lokasi/rent-oxygen-pahang/sewa-mesin-oksigen-$1 [R=301,L]
+
+# Perlis
+RewriteRule ^lokasi/perlis/(.*)\.html$ /sewa-oksigen-lokasi/rent-oxygen-perlis/sewa-mesin-oksigen-$1 [R=301,L]
+
+# Sabah
+RewriteRule ^lokasi/sabah/(.*)\.html$ /sewa-oksigen-lokasi/rent-oxygen-sabah/sewa-mesin-oksigen-$1 [R=301,L]
+
+# Sarawak
+RewriteRule ^lokasi/sarawak/(.*)\.html$ /sewa-oksigen-lokasi/rent-oxygen-sarawak/sewa-mesin-oksigen-$1 [R=301,L]
+
+# Labuan
+RewriteRule ^lokasi/labuan/(.*)\.html$ /sewa-oksigen-lokasi/rent-oxygen-labuan/sewa-mesin-oksigen-$1 [R=301,L]
+
+# Clean URL support - serve index.html from directories
+DirectoryIndex index.html
+
+# Force trailing slash for directories (for clean URLs)
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.*)$ $1/ [R=301,L]
+
+# Gzip compression for faster loading
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Browser caching
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 1 hour"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+</IfModule>
