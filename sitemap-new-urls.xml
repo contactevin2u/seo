@@ -1,55 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- ========== MAIN PAGES ========== -->
-
-  <!-- Homepage -->
   <url>
     <loc>https://oxygen-concentrator.my/</loc>
     <lastmod>2025-12-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://oxygen-concentrator.my/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oxygen-concentrator.my/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oxygen-concentrator.my/"/>
   </url>
 
-  <!-- Sewa Page -->
   <url>
-    <loc>https://oxygen-concentrator.my/sewa-oxygen-concentrator.html</loc>
+    <loc>https://oxygen-concentrator.my/sewa-oxygen-concentrator</loc>
     <lastmod>2025-12-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Beli Page -->
   <url>
-    <loc>https://oxygen-concentrator.my/beli-oxygen-concentrator.html</loc>
+    <loc>https://oxygen-concentrator.my/beli-oxygen-concentrator</loc>
     <lastmod>2025-12-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>
-
-  <!-- Location Hub Page -->
-  <url>
-    <loc>https://oxygen-concentrator.my/lokasi.html</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Panduan (Guide) Page -->
-  <url>
-    <loc>https://oxygen-concentrator.my/panduan-oxygen-concentrator.html</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
   <!-- ========== LOCATION PAGES (NEW URL STRUCTURE) ========== -->
-  <!-- From: /sewa-oksigen-lokasi/rent-oxygen-[state]/sewa-mesin-oksigen-[city]/ -->
-  <!-- To: /[state]/oxygen-concentrator-[city]/ -->
 
   <!-- Johor -->
   <url>

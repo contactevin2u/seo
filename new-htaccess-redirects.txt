@@ -1,76 +1,8 @@
-# Enable URL Rewriting
-RewriteEngine On
-RewriteBase /
-
-# Remove .html extension
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html [L]
-
-# Redirect old URLs to new clean URLs (301 Permanent Redirects)
-
-# Main pages
-RewriteRule ^sewa-oxygen-concentrator\.html$ /sewa-oxygen-concentrator [R=301,L]
-RewriteRule ^beli-oxygen-concentrator\.html$ /beli-oxygen-concentrator [R=301,L]
-RewriteRule ^oxygen-concentrator-kuala-lumpur\.html$ /kuala-lumpur [R=301,L]
-RewriteRule ^oxygen-concentrator-selangor\.html$ /selangor [R=301,L]
-RewriteRule ^oxygen-concentrator-penang\.html$ /penang [R=301,L]
-RewriteRule ^oxygen-concentrator-johor\.html$ /johor [R=301,L]
 
 # ===========================================
-# URL MIGRATION REDIRECTS (2025-12-17)
-# From OLD: /lokasi/[state]/[city].html
-# To NEW: /[state]/oxygen-concentrator-[city]/
-# ===========================================
-
-# Selangor (from lokasi)
-RewriteRule ^lokasi/selangor/(.*)\.html$ /selangor/oxygen-concentrator-$1 [R=301,L]
-
-# Kuala Lumpur (from lokasi)
-RewriteRule ^lokasi/kuala-lumpur/(.*)\.html$ /kuala-lumpur/oxygen-concentrator-$1 [R=301,L]
-
-# Johor (from lokasi)
-RewriteRule ^lokasi/johor/(.*)\.html$ /johor/oxygen-concentrator-$1 [R=301,L]
-
-# Penang (from lokasi)
-RewriteRule ^lokasi/penang/(.*)\.html$ /penang/oxygen-concentrator-$1 [R=301,L]
-
-# Perak (from lokasi)
-RewriteRule ^lokasi/perak/(.*)\.html$ /perak/oxygen-concentrator-$1 [R=301,L]
-
-# Melaka (from lokasi)
-RewriteRule ^lokasi/melaka/(.*)\.html$ /melaka/oxygen-concentrator-$1 [R=301,L]
-
-# Negeri Sembilan (from lokasi)
-RewriteRule ^lokasi/negeri-sembilan/(.*)\.html$ /negeri-sembilan/oxygen-concentrator-$1 [R=301,L]
-
-# Kedah (from lokasi)
-RewriteRule ^lokasi/kedah/(.*)\.html$ /kedah/oxygen-concentrator-$1 [R=301,L]
-
-# Kelantan (from lokasi)
-RewriteRule ^lokasi/kelantan/(.*)\.html$ /kelantan/oxygen-concentrator-$1 [R=301,L]
-
-# Terengganu (from lokasi)
-RewriteRule ^lokasi/terengganu/(.*)\.html$ /terengganu/oxygen-concentrator-$1 [R=301,L]
-
-# Pahang (from lokasi)
-RewriteRule ^lokasi/pahang/(.*)\.html$ /pahang/oxygen-concentrator-$1 [R=301,L]
-
-# Perlis (from lokasi)
-RewriteRule ^lokasi/perlis/(.*)\.html$ /perlis/oxygen-concentrator-$1 [R=301,L]
-
-# Sabah (from lokasi)
-RewriteRule ^lokasi/sabah/(.*)\.html$ /sabah/oxygen-concentrator-$1 [R=301,L]
-
-# Sarawak (from lokasi)
-RewriteRule ^lokasi/sarawak/(.*)\.html$ /sarawak/oxygen-concentrator-$1 [R=301,L]
-
-# Labuan (from lokasi)
-RewriteRule ^lokasi/labuan/(.*)\.html$ /labuan/oxygen-concentrator-$1 [R=301,L]
-
-# ===========================================
-# FROM: /sewa-oksigen-lokasi/rent-oxygen-[state]/sewa-mesin-oksigen-[city]/
-# TO: /[state]/oxygen-concentrator-[city]/
+# URL MIGRATION REDIRECTS (Added 2025-12-17)
+# From: /sewa-oksigen-lokasi/rent-oxygen-[state]/sewa-mesin-oksigen-[city]/
+# To: /[state]/oxygen-concentrator-[city]/
 # ===========================================
 
 # Johor
@@ -242,33 +174,3 @@ Redirect 301 /sewa-oksigen-lokasi/rent-oxygen-terengganu/sewa-mesin-oksigen-kual
 Redirect 301 /sewa-oksigen-lokasi/rent-oxygen-terengganu/sewa-mesin-oksigen-marang /terengganu/oxygen-concentrator-marang
 Redirect 301 /sewa-oksigen-lokasi/rent-oxygen-terengganu/sewa-mesin-oksigen-setiu /terengganu/oxygen-concentrator-setiu
 
-# Clean URL support - serve index.html from directories
-DirectoryIndex index.html
-
-# Force trailing slash for directories (for clean URLs)
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteCond %{REQUEST_URI} !/$
-RewriteRule ^(.*)$ $1/ [R=301,L]
-
-# Gzip compression for faster loading
-<IfModule mod_deflate.c>
-  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json
-</IfModule>
-
-# Browser caching
-<IfModule mod_expires.c>
-  ExpiresActive On
-  ExpiresByType text/html "access plus 1 hour"
-  ExpiresByType text/css "access plus 1 month"
-  ExpiresByType application/javascript "access plus 1 month"
-  ExpiresByType image/jpeg "access plus 1 year"
-  ExpiresByType image/png "access plus 1 year"
-  ExpiresByType image/webp "access plus 1 year"
-</IfModule>
-
-# Security headers
-<IfModule mod_headers.c>
-  Header set X-Content-Type-Options "nosniff"
-  Header set X-Frame-Options "SAMEORIGIN"
-  Header set X-XSS-Protection "1; mode=block"
-</IfModule>
