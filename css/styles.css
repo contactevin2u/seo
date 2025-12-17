@@ -173,13 +173,15 @@ a {
 
 .btn-outline-white {
   background: transparent;
-  color: var(--white);
-  border: 2px solid var(--white);
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  opacity: 1;
 }
 
 .btn-outline-white:hover {
-  background: var(--white);
+  background: #ffffff;
   color: var(--primary);
+  border-color: #ffffff;
 }
 
 .btn-lg {
