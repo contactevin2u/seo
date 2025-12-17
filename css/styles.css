@@ -1,19 +1,19 @@
 /* ===== BASE STYLES ===== */
 :root {
-  /* Modern Color Palette */
-  --primary: #0066ff;
-  --primary-dark: #0052cc;
-  --primary-light: #e6f2ff;
-  --secondary: #00c853;
-  --secondary-dark: #00a844;
+  /* Original Color Palette */
+  --primary: #0052cc;
+  --primary-dark: #003d99;
+  --primary-light: #e6f0ff;
+  --secondary: #00a651;
+  --secondary-dark: #008c44;
   --secondary-light: #e8f5e9;
   --accent: #ff6b35;
   --accent-light: #fff3ed;
 
   /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #0066ff 0%, #00c6ff 100%);
-  --gradient-hero: linear-gradient(135deg, #0052cc 0%, #00b4d8 50%, #0077b6 100%);
-  --gradient-cta: linear-gradient(135deg, #00c853 0%, #00e676 100%);
+  --gradient-primary: linear-gradient(135deg, #0052cc 0%, #003d99 100%);
+  --gradient-hero: linear-gradient(135deg, #0052cc 0%, #003d99 100%);
+  --gradient-cta: linear-gradient(135deg, #00a651 0%, #00c853 100%);
   --gradient-dark: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
 
   /* Text Colors */
@@ -32,7 +32,7 @@
   --shadow: 0 4px 20px rgba(0,0,0,0.08);
   --shadow-lg: 0 10px 40px rgba(0,0,0,0.12);
   --shadow-xl: 0 20px 60px rgba(0,0,0,0.15);
-  --shadow-glow: 0 0 40px rgba(0,102,255,0.3);
+  --shadow-glow: 0 0 40px rgba(0,82,204,0.3);
 
   /* Border Radius */
   --radius-sm: 8px;
@@ -202,7 +202,7 @@ a {
   border-radius: var(--radius-sm);
   font-weight: 700;
   font-size: 14px;
-  box-shadow: 0 4px 12px rgba(0,102,255,0.3);
+  box-shadow: 0 4px 12px rgba(0,82,204,0.3);
 }
 
 .logo-text strong {
@@ -576,10 +576,7 @@ a {
 }
 
 .hero h1 .highlight {
-  background: linear-gradient(90deg, #7dd3fc, #a5f3fc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #7dd3fc;
 }
 
 .hero-subtitle {
@@ -800,7 +797,7 @@ a {
 
 .badge-pro {
   background: var(--gradient-primary);
-  box-shadow: 0 4px 12px rgba(0,102,255,0.3);
+  box-shadow: 0 4px 12px rgba(0,82,204,0.3);
 }
 
 .badge-travel {
@@ -826,7 +823,7 @@ a {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(0,102,255,0.05) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(0,82,204,0.05) 0%, transparent 70%);
 }
 
 .product-image img {
@@ -1016,10 +1013,7 @@ a {
   display: block;
   font-size: 48px;
   font-weight: 800;
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--primary);
   line-height: 1;
   margin-bottom: 10px;
 }
