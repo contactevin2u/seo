@@ -263,6 +263,28 @@ header nav .cta-button:hover {
   box-shadow: 0 4px 15px rgba(255,255,255,0.3);
 }
 
+.btn-secondary {
+  background: transparent;
+  color: var(--white);
+  border: 2px solid var(--white);
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background: var(--white);
+  color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255,255,255,0.3);
+}
+
 .btn-lg {
   padding: 16px 32px;
   font-size: 17px;
