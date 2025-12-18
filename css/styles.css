@@ -341,8 +341,19 @@ header nav .cta-button:hover {
 }
 
 .hero-trust-badge img {
-  max-width: 200px;
+  max-width: 180px;
   height: auto;
+  margin-bottom: 8px;
+}
+
+.hero-trust-badge .trust-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+  margin: 0;
 }
 
 /* Hero CTA Buttons */
@@ -352,16 +363,18 @@ header nav .cta-button:hover {
   gap: 10px;
   background: var(--secondary);
   color: var(--white);
-  padding: 14px 24px;
-  border-radius: 8px;
+  padding: 14px 28px;
+  border-radius: 50px;
   font-weight: 600;
   font-size: 15px;
   transition: all 0.2s ease;
+  box-shadow: 0 4px 15px rgba(0,166,81,0.3);
 }
 
 .btn-whatsapp:hover {
   background: var(--secondary-dark);
   transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,166,81,0.4);
 }
 
 .btn-phone {
@@ -370,11 +383,12 @@ header nav .cta-button:hover {
   gap: 10px;
   background: #1a1a2e;
   color: var(--white);
-  padding: 14px 24px;
-  border-radius: 8px;
+  padding: 14px 28px;
+  border-radius: 50px;
   font-weight: 600;
   font-size: 15px;
   transition: all 0.2s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .btn-phone:hover {
@@ -384,12 +398,14 @@ header nav .cta-button:hover {
 
 .hero-badge {
   display: inline-block;
-  background: rgba(255,255,255,0.2);
-  padding: 8px 20px;
+  background: var(--white);
+  color: var(--text);
+  padding: 10px 24px;
   border-radius: 50px;
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .hero h1 {
@@ -404,10 +420,23 @@ header nav .cta-button:hover {
 }
 
 .hero-subtitle {
-  font-size: 20px;
-  opacity: 0.9;
-  margin-bottom: 40px;
-  line-height: 1.6;
+  font-size: 17px;
+  opacity: 0.95;
+  margin-bottom: 28px;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.text-certified {
+  color: #7dd3fc;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.text-highlight {
+  color: #fbbf24;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .hero-prices {
@@ -415,31 +444,32 @@ header nav .cta-button:hover {
   flex-direction: column;
   gap: 12px;
   width: 100%;
+  max-width: 220px;
 }
 
 .price-card {
   background: var(--white);
-  padding: 16px 24px;
-  border-radius: var(--radius);
+  padding: 14px 20px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  border: 2px solid #1a1a2e;
 }
 
 .price-label {
-  font-size: 16px;
+  font-size: 15px;
   color: var(--text);
   font-weight: 500;
 }
 
 .price-amount {
-  font-size: 18px;
+  font-size: 16px;
   color: var(--text);
 }
 
 .price-amount strong {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 700;
   color: var(--secondary);
 }
