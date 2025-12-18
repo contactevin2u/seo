@@ -365,14 +365,15 @@ header nav .cta-button:hover {
   margin: 0;
 }
 
-/* Hero Product Image - Center Bottom */
-.hero-product-image {
-  text-align: center;
-  margin-top: 30px;
+/* Hero Prices Row - Prices + Product Image side by side */
+.hero-prices-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .hero-product-image img {
-  max-width: 320px;
+  max-width: 180px;
   height: auto;
   filter: drop-shadow(0 10px 30px rgba(0,0,0,0.2));
 }
