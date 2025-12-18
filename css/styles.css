@@ -430,10 +430,15 @@ header nav .cta-button:hover {
 }
 
 .btn-phone:hover {
-  background: #003d99;
+  background: var(--white);
+  color: #0047b3;
   border-color: var(--white);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0,71,179,0.4);
+  box-shadow: 0 6px 20px rgba(255,255,255,0.3);
+}
+
+.btn-phone:hover svg {
+  stroke: #0047b3;
 }
 
 .hero-badge {
