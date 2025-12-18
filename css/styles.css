@@ -399,11 +399,12 @@ header nav .cta-button:hover {
 .hero-badge {
   display: inline-block;
   background: var(--white);
-  color: var(--text);
+  color: #0047b3;
   padding: 10px 24px;
-  border-radius: 50px;
+  border-radius: 8px;
   font-size: 14px;
   font-weight: 600;
+  font-style: italic;
   margin-bottom: 20px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
