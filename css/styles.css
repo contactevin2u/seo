@@ -418,15 +418,16 @@ header nav .cta-button:hover {
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-.hero h1 {
+.hero-title {
   font-size: 42px;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 16px;
-  text-align: left;
+  margin-bottom: 24px;
+  text-align: center;
+  color: var(--white);
 }
 
-.hero h1 .highlight {
+.hero-title .highlight {
   color: #99fbff;
 }
 
