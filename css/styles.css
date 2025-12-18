@@ -311,11 +311,13 @@ header nav .cta-button:hover {
   margin: 0 auto;
 }
 
-.hero-text {
+.hero-badge-wrapper {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  text-align: left;
 }
 
 .hero-image {
@@ -416,12 +418,11 @@ header nav .cta-button:hover {
 }
 
 .hero h1 {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 20px;
-  text-align: center;
-  width: 100%;
+  margin-bottom: 16px;
+  text-align: left;
 }
 
 .hero h1 .highlight {
@@ -429,11 +430,13 @@ header nav .cta-button:hover {
 }
 
 .hero-subtitle {
-  font-size: 17px;
+  font-size: 16px;
   opacity: 0.95;
-  margin-bottom: 28px;
-  line-height: 1.7;
+  margin-bottom: 24px;
+  line-height: 1.6;
   font-style: italic;
+  text-align: left;
+  max-width: 320px;
 }
 
 .text-certified {
@@ -486,8 +489,8 @@ header nav .cta-button:hover {
 .hero-cta {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 12px;
-  margin-top: 24px;
 }
 
 /* ===== FEATURES BAR ===== */
