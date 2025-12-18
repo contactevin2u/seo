@@ -298,7 +298,7 @@ header nav .cta-button:hover {
 .hero {
   background: url('../images/Backgroud Colour.jpg') center center / cover no-repeat;
   color: var(--white);
-  padding: 15px 0 40px;
+  padding: 10px 0 40px;
   position: relative;
 }
 
