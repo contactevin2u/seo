@@ -304,10 +304,10 @@ header nav .cta-button:hover {
 
 .hero-content {
   display: grid;
-  grid-template-columns: 1fr 1.2fr 1fr;
-  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -365,19 +365,16 @@ header nav .cta-button:hover {
   margin: 0;
 }
 
-/* Hero Center - Product Image */
-.hero-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Hero Product Center - Smaller centered image */
+.hero-product-center {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.hero-center img {
-  max-width: 100%;
+.hero-product-center img {
+  max-width: 280px;
   height: auto;
-  max-height: 380px;
-  object-fit: contain;
-  filter: drop-shadow(0 15px 40px rgba(0,0,0,0.3));
+  filter: drop-shadow(0 10px 30px rgba(0,0,0,0.2));
 }
 
 /* Hero CTA Buttons */
@@ -437,11 +434,11 @@ header nav .cta-button:hover {
 }
 
 .hero-title {
-  font-size: 38px;
+  font-size: 42px;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 16px;
-  text-align: left;
+  margin-bottom: 20px;
+  text-align: center;
   color: var(--white);
 }
 
