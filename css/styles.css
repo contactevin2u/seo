@@ -298,7 +298,7 @@ header nav .cta-button:hover {
 .hero {
   background: url('../images/Backgroud Colour.jpg') center center / cover no-repeat;
   color: var(--white);
-  padding: 10px 0 40px;
+  padding: 12px 0 40px;
   position: relative;
 }
 
@@ -317,7 +317,7 @@ header nav .cta-button:hover {
 
 .hero-badge-wrapper {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -437,7 +437,7 @@ header nav .cta-button:hover {
   font-size: 14px;
   font-weight: 600;
   font-style: italic;
-  margin-bottom: 5px;
+  margin-bottom: 12px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
