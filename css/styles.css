@@ -304,11 +304,15 @@ header nav .cta-button:hover {
 
 .hero-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 30px;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+.hero-left {
+  text-align: left;
 }
 
 .hero-badge-wrapper {
@@ -365,16 +369,19 @@ header nav .cta-button:hover {
   margin: 0;
 }
 
-/* Hero Product Center - Smaller centered image */
-.hero-product-center {
-  text-align: center;
-  margin-bottom: 30px;
+/* Hero Center - Product Image */
+.hero-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.hero-product-center img {
-  max-width: 280px;
+.hero-center img {
+  max-width: 100%;
   height: auto;
-  filter: drop-shadow(0 10px 30px rgba(0,0,0,0.2));
+  max-height: 350px;
+  object-fit: contain;
+  filter: drop-shadow(0 15px 40px rgba(0,0,0,0.3));
 }
 
 /* Hero CTA Buttons */
