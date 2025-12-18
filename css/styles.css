@@ -507,7 +507,7 @@ header nav .cta-button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 3px solid #1a1a2e;
+  border: none;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   transition: all 0.2s ease;
 }
@@ -519,19 +519,19 @@ header nav .cta-button:hover {
 
 .price-label {
   font-size: 16px;
-  color: var(--text);
+  color: #0047b3;
   font-weight: 600;
 }
 
 .price-amount {
   font-size: 16px;
-  color: var(--text);
+  color: #0047b3;
 }
 
 .price-amount strong {
   font-size: 28px;
   font-weight: 700;
-  color: var(--secondary);
+  color: #0047b3;
 }
 
 .hero-cta {
