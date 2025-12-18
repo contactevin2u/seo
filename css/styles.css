@@ -350,9 +350,9 @@ header nav .cta-button:hover {
 }
 
 .hero-trust-badge img {
-  max-width: 160px;
+  max-width: 220px;
   height: auto;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .hero-trust-badge .trust-text {
