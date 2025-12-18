@@ -401,7 +401,7 @@ header nav .cta-button:hover {
   background: var(--white);
   color: #0047b3;
   padding: 10px 24px;
-  border-radius: 8px;
+  border-radius: 50px;
   font-size: 14px;
   font-weight: 600;
   font-style: italic;
