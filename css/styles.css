@@ -304,10 +304,10 @@ header nav .cta-button:hover {
 
 .hero-content {
   display: grid;
-  grid-template-columns: 1fr 1.2fr 1fr;
-  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
   align-items: center;
-  max-width: 1300px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
