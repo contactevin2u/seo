@@ -495,19 +495,19 @@ header nav .cta-button:hover {
 .hero-prices {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
   width: 100%;
-  max-width: 240px;
+  max-width: 200px;
 }
 
 .price-card {
   background: var(--white);
-  padding: 16px 24px;
-  border-radius: 12px;
+  padding: 12px 18px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 10px;
+  gap: 8px;
   border: none;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   transition: all 0.2s ease;
