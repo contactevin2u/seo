@@ -419,12 +419,11 @@ header nav .cta-button:hover {
 }
 
 .hero h1 {
-  font-size: 38px;
+  font-size: 42px;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 16px;
   text-align: left;
-  max-width: 380px;
 }
 
 .hero h1 .highlight {
