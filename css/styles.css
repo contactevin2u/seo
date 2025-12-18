@@ -298,13 +298,34 @@ header nav .cta-button:hover {
 .hero {
   background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
   color: var(--white);
-  padding: 80px 0 100px;
+  padding: 60px 0 80px;
 }
 
 .hero-content {
-  max-width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
+}
+
+.hero-text {
+  text-align: left;
+}
+
+.hero-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3));
 }
 
 .hero-badge {
@@ -337,9 +358,9 @@ header nav .cta-button:hover {
 
 .hero-prices {
   display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 40px;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-bottom: 32px;
 }
 
 .price-card {
@@ -369,16 +390,16 @@ header nav .cta-button:hover {
 
 .hero-cta {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 16px;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   flex-wrap: wrap;
 }
 
 .hero-trust {
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  justify-content: flex-start;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
@@ -878,6 +899,14 @@ header nav .cta-button:hover {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
+  .hero-content {
+    gap: 30px;
+  }
+
+  .hero-image img {
+    max-height: 400px;
+  }
+
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -904,11 +933,31 @@ header nav .cta-button:hover {
     display: none;
   }
 
+  .hero-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-text {
+    text-align: center;
+    order: 2;
+  }
+
+  .hero-image {
+    order: 1;
+    margin-bottom: 20px;
+  }
+
+  .hero-image img {
+    max-height: 300px;
+  }
+
   .hero h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .hero-prices {
+    justify-content: center;
     flex-direction: column;
     align-items: center;
   }
@@ -919,12 +968,17 @@ header nav .cta-button:hover {
   }
 
   .hero-cta {
+    justify-content: center;
     flex-direction: column;
     padding: 0 20px;
   }
 
   .hero-cta .btn {
     width: 100%;
+  }
+
+  .hero-trust {
+    justify-content: center;
   }
 
   .features-bar {
