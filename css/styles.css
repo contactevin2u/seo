@@ -345,7 +345,7 @@ header nav .cta-button:hover {
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
-  margin-left: -80px;
+  margin-left: -120px;
 }
 
 .hero-trust-badge {
