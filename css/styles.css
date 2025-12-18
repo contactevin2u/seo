@@ -505,7 +505,7 @@ header nav .cta-button:hover {
   padding: 8px 20px;
   border-radius: 8px;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   gap: 5px;
   border: none;
