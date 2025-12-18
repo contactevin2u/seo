@@ -304,10 +304,10 @@ header nav .cta-button:hover {
 
 .hero-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 30px;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -365,17 +365,19 @@ header nav .cta-button:hover {
   margin: 0;
 }
 
-/* Hero Prices Row - Prices + Product Image side by side */
-.hero-prices-row {
+/* Hero Center - Product Image */
+.hero-center {
   display: flex;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
 }
 
-.hero-product-image img {
-  max-width: 180px;
+.hero-center img {
+  max-width: 100%;
   height: auto;
-  filter: drop-shadow(0 10px 30px rgba(0,0,0,0.2));
+  max-height: 380px;
+  object-fit: contain;
+  filter: drop-shadow(0 15px 40px rgba(0,0,0,0.3));
 }
 
 /* Hero CTA Buttons */
@@ -435,11 +437,11 @@ header nav .cta-button:hover {
 }
 
 .hero-title {
-  font-size: 42px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 24px;
-  text-align: center;
+  margin-bottom: 16px;
+  text-align: left;
   color: var(--white);
 }
 
