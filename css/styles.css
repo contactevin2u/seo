@@ -420,6 +420,8 @@ header nav .cta-button:hover {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
 }
 
 .hero h1 .highlight {
