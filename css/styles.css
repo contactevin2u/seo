@@ -344,12 +344,15 @@ header nav .cta-button:hover {
 
 .hero-trust-badge {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-trust-badge img {
-  max-width: 180px;
+  max-width: 160px;
   height: auto;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .hero-trust-badge .trust-text {
