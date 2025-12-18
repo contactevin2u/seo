@@ -322,14 +322,15 @@ header nav .cta-button:hover {
 
 .hero-image {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+  padding-top: 40px;
 }
 
 .hero-image img {
   max-width: 100%;
   height: auto;
-  max-height: 420px;
+  max-height: 340px;
   object-fit: contain;
   filter: drop-shadow(0 10px 30px rgba(0,0,0,0.25));
 }
@@ -418,11 +419,12 @@ header nav .cta-button:hover {
 }
 
 .hero h1 {
-  font-size: 42px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 16px;
   text-align: left;
+  max-width: 380px;
 }
 
 .hero h1 .highlight {
