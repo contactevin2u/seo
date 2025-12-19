@@ -1539,14 +1539,15 @@ header nav .cta-button:hover {
 .page-header {
   background: url('../images/Backgroud Colour.jpg') center center / cover no-repeat;
   color: var(--white);
-  padding: 60px 0;
+  padding: 40px 0 120px;
   text-align: center;
 }
 
 .page-header h1 {
-  font-size: 42px;
+  font-size: 54px;
   font-weight: 700;
-  margin-bottom: 16px;
+  line-height: 1.2;
+  margin-bottom: 15px;
 }
 
 .page-header h1 .highlight {
@@ -1671,11 +1672,11 @@ header nav .cta-button:hover {
 
 @media (max-width: 768px) {
   .page-header {
-    padding: 40px 0;
+    padding: 40px 0 60px;
   }
 
   .page-header h1 {
-    font-size: 28px;
+    font-size: 36px;
   }
 
   .state-grid {
@@ -1685,7 +1686,7 @@ header nav .cta-button:hover {
 
 @media (max-width: 480px) {
   .page-header h1 {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .search-box input {
