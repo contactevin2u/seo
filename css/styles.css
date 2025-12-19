@@ -575,9 +575,9 @@ header nav .cta-button:hover {
 .features-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 16px;
+  gap: 12px;
   background: var(--white);
-  padding: 20px 30px;
+  padding: 16px 24px;
   border-radius: var(--radius-lg);
   box-shadow: 0 10px 40px rgba(0,0,0,0.15);
 }
@@ -587,7 +587,7 @@ header nav .cta-button:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 10px 8px;
+  padding: 8px 6px;
   background: transparent;
   border-radius: var(--radius);
   transition: all 0.25s ease;
@@ -599,12 +599,12 @@ header nav .cta-button:hover {
 
 .feature-icon {
   color: var(--primary);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .feature-icon svg {
-  width: 44px;
-  height: 44px;
+  width: 36px;
+  height: 36px;
 }
 
 .feature-text {
@@ -614,16 +614,16 @@ header nav .cta-button:hover {
 }
 
 .feature-text strong {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--primary);
   letter-spacing: 0.3px;
 }
 
 .feature-text span {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--text-light);
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 /* ===== SECTION HEADER ===== */
