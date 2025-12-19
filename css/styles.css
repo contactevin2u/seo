@@ -1442,7 +1442,7 @@ header nav .cta-button:hover {
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   padding: 24px;
-  background: var(--bg);
+  background: #0047b3;
   margin: 0 -24px;
 }
 
