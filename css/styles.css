@@ -806,7 +806,7 @@ header nav .cta-button:hover {
 .section-header h2 {
   font-size: 36px;
   font-weight: 700;
-  color: var(--text);
+  color: #043c92;
   margin-bottom: 12px;
 }
 
@@ -963,7 +963,7 @@ header nav .cta-button:hover {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 12px;
-  color: var(--text);
+  color: #043c92;
 }
 
 .why-card p {
@@ -1073,7 +1073,7 @@ header nav .cta-button:hover {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
-  color: var(--text);
+  color: #043c92;
 }
 
 .delivery-time {
@@ -1127,7 +1127,7 @@ header nav .cta-button:hover {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 12px;
-  color: var(--text);
+  color: #043c92;
 }
 
 .faq-item p {
