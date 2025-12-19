@@ -1394,11 +1394,38 @@ header nav .cta-button:hover {
 }
 
 /* ===== AREA CARDS EXPAND ===== */
-.area-cities {
+.area-count {
+  background: rgba(255,255,255,0.3);
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-left: 6px;
+}
+
+.area-card:not(.area-featured) .area-count {
+  background: #e6f0ff;
+  color: #043c92;
+}
+
+.area-cities-preview,
+.area-cities-full {
   font-size: 0.8rem;
   color: #666;
   margin-top: 8px;
-  line-height: 1.4;
+  line-height: 1.5;
+}
+
+.area-cities-full {
+  display: none;
+}
+
+.areas-grid.expanded .area-cities-preview {
+  display: none;
+}
+
+.areas-grid.expanded .area-cities-full {
+  display: block;
 }
 
 .area-card.area-hidden {
