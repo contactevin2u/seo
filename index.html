@@ -649,10 +649,335 @@
       </div>
 
       <div class="areas-cta">
-        <a href="lokasi.html" class="btn btn-outline">Lihat Semua 139 Lokasi</a>
+        <button onclick="openLocationModal()" class="btn btn-outline">Lihat Semua 139 Lokasi</button>
       </div>
     </div>
   </section>
+
+  <!-- LOCATION MODAL -->
+  <div id="locationModal" class="location-modal">
+    <div class="location-modal-content">
+      <div class="location-modal-header">
+        <h2>Semua Lokasi Perkhidmatan</h2>
+        <p>139 lokasi di seluruh Malaysia</p>
+        <button class="modal-close" onclick="closeLocationModal()">&times;</button>
+      </div>
+
+      <div class="location-search">
+        <input type="text" id="locationSearchInput" placeholder="Cari lokasi anda... (contoh: Petaling Jaya, Ipoh)" onkeyup="filterModalLocations()">
+      </div>
+
+      <div class="location-modal-body" id="locationGrid">
+        <!-- SELANGOR -->
+        <div class="location-state" data-state="selangor">
+          <h3>Selangor <span class="state-count">15 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag" data-delivery="3jam">Petaling Jaya</span>
+            <span class="city-tag" data-delivery="3jam">Shah Alam</span>
+            <span class="city-tag" data-delivery="3jam">Subang Jaya</span>
+            <span class="city-tag" data-delivery="3jam">Klang</span>
+            <span class="city-tag" data-delivery="3jam">Ampang</span>
+            <span class="city-tag" data-delivery="3jam">Kajang</span>
+            <span class="city-tag" data-delivery="3jam">Puchong</span>
+            <span class="city-tag" data-delivery="3jam">Rawang</span>
+            <span class="city-tag" data-delivery="3jam">Selayang</span>
+            <span class="city-tag" data-delivery="3jam">Serdang</span>
+            <span class="city-tag" data-delivery="3jam">Cyberjaya</span>
+            <span class="city-tag" data-delivery="3jam">Putrajaya</span>
+            <span class="city-tag" data-delivery="3jam">Bangi</span>
+            <span class="city-tag" data-delivery="3jam">Semenyih</span>
+            <span class="city-tag" data-delivery="3jam">Sepang</span>
+          </div>
+        </div>
+
+        <!-- KUALA LUMPUR -->
+        <div class="location-state" data-state="kuala-lumpur">
+          <h3>Kuala Lumpur <span class="state-count">13 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag" data-delivery="3jam">Cheras</span>
+            <span class="city-tag" data-delivery="3jam">Bangsar</span>
+            <span class="city-tag" data-delivery="3jam">Kepong</span>
+            <span class="city-tag" data-delivery="3jam">Setapak</span>
+            <span class="city-tag" data-delivery="3jam">Mont Kiara</span>
+            <span class="city-tag" data-delivery="3jam">Bukit Bintang</span>
+            <span class="city-tag" data-delivery="3jam">Sentul</span>
+            <span class="city-tag" data-delivery="3jam">Titiwangsa</span>
+            <span class="city-tag" data-delivery="3jam">Segambut</span>
+            <span class="city-tag" data-delivery="3jam">Sri Petaling</span>
+            <span class="city-tag" data-delivery="3jam">Taman Desa</span>
+            <span class="city-tag" data-delivery="3jam">Brickfields</span>
+            <span class="city-tag" data-delivery="3jam">Jalan Ipoh</span>
+          </div>
+        </div>
+
+        <!-- PENANG -->
+        <div class="location-state" data-state="penang">
+          <h3>Pulau Pinang <span class="state-count">11 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag">George Town</span>
+            <span class="city-tag">Butterworth</span>
+            <span class="city-tag">Bayan Lepas</span>
+            <span class="city-tag">Bukit Mertajam</span>
+            <span class="city-tag">Seberang Perai</span>
+            <span class="city-tag">Air Itam</span>
+            <span class="city-tag">Jelutong</span>
+            <span class="city-tag">Gelugor</span>
+            <span class="city-tag">Balik Pulau</span>
+            <span class="city-tag">Nibong Tebal</span>
+            <span class="city-tag">Kepala Batas</span>
+          </div>
+        </div>
+
+        <!-- JOHOR -->
+        <div class="location-state" data-state="johor">
+          <h3>Johor <span class="state-count">13 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag">Johor Bahru</span>
+            <span class="city-tag">Iskandar Puteri</span>
+            <span class="city-tag">Kulai</span>
+            <span class="city-tag">Skudai</span>
+            <span class="city-tag">Pasir Gudang</span>
+            <span class="city-tag">Pontian</span>
+            <span class="city-tag">Kota Tinggi</span>
+            <span class="city-tag">Muar</span>
+            <span class="city-tag">Batu Pahat</span>
+            <span class="city-tag">Kluang</span>
+            <span class="city-tag">Segamat</span>
+            <span class="city-tag">Mersing</span>
+            <span class="city-tag">Gelang Patah</span>
+          </div>
+        </div>
+
+        <!-- PERAK -->
+        <div class="location-state" data-state="perak">
+          <h3>Perak <span class="state-count">9 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag">Ipoh</span>
+            <span class="city-tag">Taiping</span>
+            <span class="city-tag">Teluk Intan</span>
+            <span class="city-tag">Sitiawan</span>
+            <span class="city-tag">Kampar</span>
+            <span class="city-tag">Batu Gajah</span>
+            <span class="city-tag">Gopeng</span>
+            <span class="city-tag">Tanjung Malim</span>
+            <span class="city-tag">Kuala Kangsar</span>
+          </div>
+        </div>
+
+        <!-- KEDAH -->
+        <div class="location-state" data-state="kedah">
+          <h3>Kedah <span class="state-count">8 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag">Alor Setar</span>
+            <span class="city-tag">Sungai Petani</span>
+            <span class="city-tag">Kulim</span>
+            <span class="city-tag">Langkawi</span>
+            <span class="city-tag">Jitra</span>
+            <span class="city-tag">Baling</span>
+            <span class="city-tag">Yan</span>
+            <span class="city-tag">Pendang</span>
+          </div>
+        </div>
+
+        <!-- NEGERI SEMBILAN -->
+        <div class="location-state" data-state="negeri-sembilan">
+          <h3>Negeri Sembilan <span class="state-count">7 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag">Seremban</span>
+            <span class="city-tag">Port Dickson</span>
+            <span class="city-tag">Nilai</span>
+            <span class="city-tag">Bahau</span>
+            <span class="city-tag">Kuala Pilah</span>
+            <span class="city-tag">Tampin</span>
+            <span class="city-tag">Rembau</span>
+          </div>
+        </div>
+
+        <!-- MELAKA -->
+        <div class="location-state" data-state="melaka">
+          <h3>Melaka <span class="state-count">6 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag">Melaka City</span>
+            <span class="city-tag">Alor Gajah</span>
+            <span class="city-tag">Jasin</span>
+            <span class="city-tag">Ayer Keroh</span>
+            <span class="city-tag">Batu Berendam</span>
+            <span class="city-tag">Bukit Katil</span>
+          </div>
+        </div>
+
+        <!-- PAHANG -->
+        <div class="location-state" data-state="pahang">
+          <h3>Pahang <span class="state-count">10 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag">Kuantan</span>
+            <span class="city-tag">Temerloh</span>
+            <span class="city-tag">Bentong</span>
+            <span class="city-tag">Raub</span>
+            <span class="city-tag">Cameron Highlands</span>
+            <span class="city-tag">Genting Highlands</span>
+            <span class="city-tag">Jerantut</span>
+            <span class="city-tag">Pekan</span>
+            <span class="city-tag">Rompin</span>
+            <span class="city-tag">Lipis</span>
+          </div>
+        </div>
+
+        <!-- TERENGGANU -->
+        <div class="location-state" data-state="terengganu">
+          <h3>Terengganu <span class="state-count">7 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag">Kuala Terengganu</span>
+            <span class="city-tag">Kemaman</span>
+            <span class="city-tag">Dungun</span>
+            <span class="city-tag">Marang</span>
+            <span class="city-tag">Besut</span>
+            <span class="city-tag">Setiu</span>
+            <span class="city-tag">Hulu Terengganu</span>
+          </div>
+        </div>
+
+        <!-- KELANTAN -->
+        <div class="location-state" data-state="kelantan">
+          <h3>Kelantan <span class="state-count">8 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag">Kota Bharu</span>
+            <span class="city-tag">Pasir Mas</span>
+            <span class="city-tag">Tumpat</span>
+            <span class="city-tag">Tanah Merah</span>
+            <span class="city-tag">Machang</span>
+            <span class="city-tag">Kuala Krai</span>
+            <span class="city-tag">Gua Musang</span>
+            <span class="city-tag">Bachok</span>
+          </div>
+        </div>
+
+        <!-- SABAH -->
+        <div class="location-state" data-state="sabah">
+          <h3>Sabah <span class="state-count">12 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag" data-delivery="3-5hari">Kota Kinabalu</span>
+            <span class="city-tag" data-delivery="3-5hari">Sandakan</span>
+            <span class="city-tag" data-delivery="3-5hari">Tawau</span>
+            <span class="city-tag" data-delivery="3-5hari">Lahad Datu</span>
+            <span class="city-tag" data-delivery="3-5hari">Keningau</span>
+            <span class="city-tag" data-delivery="3-5hari">Semporna</span>
+            <span class="city-tag" data-delivery="3-5hari">Kudat</span>
+            <span class="city-tag" data-delivery="3-5hari">Ranau</span>
+            <span class="city-tag" data-delivery="3-5hari">Beaufort</span>
+            <span class="city-tag" data-delivery="3-5hari">Papar</span>
+            <span class="city-tag" data-delivery="3-5hari">Tuaran</span>
+            <span class="city-tag" data-delivery="3-5hari">Kunak</span>
+          </div>
+        </div>
+
+        <!-- SARAWAK -->
+        <div class="location-state" data-state="sarawak">
+          <h3>Sarawak <span class="state-count">12 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag" data-delivery="3-5hari">Kuching</span>
+            <span class="city-tag" data-delivery="3-5hari">Miri</span>
+            <span class="city-tag" data-delivery="3-5hari">Sibu</span>
+            <span class="city-tag" data-delivery="3-5hari">Bintulu</span>
+            <span class="city-tag" data-delivery="3-5hari">Sri Aman</span>
+            <span class="city-tag" data-delivery="3-5hari">Sarikei</span>
+            <span class="city-tag" data-delivery="3-5hari">Kapit</span>
+            <span class="city-tag" data-delivery="3-5hari">Mukah</span>
+            <span class="city-tag" data-delivery="3-5hari">Limbang</span>
+            <span class="city-tag" data-delivery="3-5hari">Lawas</span>
+            <span class="city-tag" data-delivery="3-5hari">Betong</span>
+            <span class="city-tag" data-delivery="3-5hari">Saratok</span>
+          </div>
+        </div>
+
+        <!-- LABUAN -->
+        <div class="location-state" data-state="labuan">
+          <h3>Labuan <span class="state-count">3 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag" data-delivery="3-5hari">Victoria</span>
+            <span class="city-tag" data-delivery="3-5hari">Rancha-Rancha</span>
+            <span class="city-tag" data-delivery="3-5hari">Layang-Layangan</span>
+          </div>
+        </div>
+
+        <!-- PERLIS -->
+        <div class="location-state" data-state="perlis">
+          <h3>Perlis <span class="state-count">4 lokasi</span></h3>
+          <div class="location-cities">
+            <span class="city-tag">Kangar</span>
+            <span class="city-tag">Arau</span>
+            <span class="city-tag">Padang Besar</span>
+            <span class="city-tag">Kuala Perlis</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="location-modal-footer">
+        <p>Lokasi anda tiada dalam senarai? <a href="https://wa.me/601128686592?text=Saya%20perlukan%20oxygen%20concentrator%20di%20lokasi%20saya">Hubungi kami</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openLocationModal() {
+      document.getElementById('locationModal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLocationModal() {
+      document.getElementById('locationModal').classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+
+    function filterModalLocations() {
+      const query = document.getElementById('locationSearchInput').value.toLowerCase();
+      const states = document.querySelectorAll('.location-state');
+      const cities = document.querySelectorAll('.city-tag');
+
+      if (query.length < 2) {
+        states.forEach(s => s.style.display = 'block');
+        cities.forEach(c => {
+          c.classList.remove('highlight');
+        });
+        return;
+      }
+
+      states.forEach(state => {
+        const stateText = state.textContent.toLowerCase();
+        const matchingCities = state.querySelectorAll('.city-tag');
+        let hasMatch = false;
+
+        matchingCities.forEach(city => {
+          if (city.textContent.toLowerCase().includes(query)) {
+            city.classList.add('highlight');
+            hasMatch = true;
+          } else {
+            city.classList.remove('highlight');
+          }
+        });
+
+        if (stateText.includes(query) || hasMatch) {
+          state.style.display = 'block';
+        } else {
+          state.style.display = 'none';
+        }
+      });
+    }
+
+    // Close modal on escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeLocationModal();
+      }
+    });
+
+    // Close modal when clicking outside
+    document.getElementById('locationModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLocationModal();
+      }
+    });
+  </script>
 
   <!-- FAQ SECTION -->
   <section id="faq" class="faq-section">
