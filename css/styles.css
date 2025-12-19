@@ -1719,6 +1719,11 @@ header nav .cta-button:hover {
   font-weight: 600;
 }
 
+/* Hide breadcrumb on location pages */
+.breadcrumb {
+  display: none;
+}
+
 .location-badge {
   display: inline-block;
   background: rgba(255,255,255,0.2);
