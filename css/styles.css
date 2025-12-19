@@ -1539,7 +1539,7 @@ header nav .cta-button:hover {
 .page-header {
   background: url('../images/Backgroud Colour.jpg') center center / cover no-repeat;
   color: var(--white);
-  padding: 40px 0 120px;
+  padding: 40px 0 60px;
   text-align: center;
 }
 
