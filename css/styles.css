@@ -984,7 +984,16 @@ header nav .cta-button:hover {
 /* ===== AREAS SECTION ===== */
 .areas-section {
   padding: 80px 0;
-  background: var(--bg);
+  background: url('../images/Backgroud Colour.jpg') center center / cover no-repeat;
+  color: var(--white);
+}
+
+.areas-section .section-header h2 {
+  color: var(--white);
+}
+
+.areas-section .section-header p {
+  color: rgba(255,255,255,0.9);
 }
 
 .areas-grid {
