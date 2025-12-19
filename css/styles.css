@@ -865,7 +865,7 @@ header nav .cta-button:hover {
 }
 
 .product-image {
-  height: 180px;
+  height: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -875,7 +875,7 @@ header nav .cta-button:hover {
 }
 
 .product-image img {
-  max-height: 140px;
+  max-height: 180px;
   object-fit: contain;
   filter: drop-shadow(0 4px 12px rgba(0,0,0,0.1));
 }
