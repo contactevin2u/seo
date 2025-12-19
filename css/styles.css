@@ -1465,7 +1465,7 @@ header nav .cta-button:hover {
   display: inline-block;
   width: 12px;
   height: 12px;
-  background: #e53935;
+  background: #888;
   border-radius: 50% 50% 50% 0;
   transform: rotate(-45deg);
   margin-right: 6px;
@@ -1473,7 +1473,7 @@ header nav .cta-button:hover {
 }
 
 .loc-cities a:hover .pin {
-  background: #043c92;
+  background: #0052cc;
 }
 
 .locations-cta {
