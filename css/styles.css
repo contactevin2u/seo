@@ -1408,8 +1408,7 @@ header nav .cta-button:hover {
   color: #043c92;
 }
 
-.area-cities-preview,
-.area-cities-full {
+.area-cities-preview {
   font-size: 0.8rem;
   color: #666;
   margin-top: 8px;
@@ -1418,6 +1417,33 @@ header nav .cta-button:hover {
 
 .area-cities-full {
   display: none;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.area-cities-full a {
+  display: inline-block;
+  background: #f0f4f8;
+  color: #333;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  border: 1px solid #e0e0e0;
+}
+
+.area-cities-full a:hover {
+  background: #043c92;
+  color: #fff;
+  border-color: #043c92;
+}
+
+.area-featured .area-cities-full a:hover {
+  background: #fff;
+  color: #043c92;
+  border-color: #fff;
 }
 
 .areas-grid.expanded .area-cities-preview {
@@ -1425,7 +1451,7 @@ header nav .cta-button:hover {
 }
 
 .areas-grid.expanded .area-cities-full {
-  display: block;
+  display: flex;
 }
 
 .area-card.area-hidden {
