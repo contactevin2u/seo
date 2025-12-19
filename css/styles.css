@@ -586,7 +586,7 @@ header nav .cta-button:hover {
   align-items: center;
   text-align: center;
   padding: 10px 8px;
-  background: var(--white);
+  background: #043c92;
   border-radius: var(--radius);
   box-shadow: 0 8px 30px rgba(0,0,0,0.12);
   transition: all 0.25s ease;
@@ -594,11 +594,11 @@ header nav .cta-button:hover {
 
 .feature-item:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.2);
 }
 
 .feature-icon {
-  color: var(--primary);
+  color: var(--white);
   margin-bottom: 4px;
 }
 
@@ -616,13 +616,13 @@ header nav .cta-button:hover {
 .feature-text strong {
   font-size: 14px;
   font-weight: 800;
-  color: var(--primary);
+  color: var(--white);
   letter-spacing: 0.5px;
 }
 
 .feature-text span {
   font-size: 11px;
-  color: var(--text-light);
+  color: rgba(255,255,255,0.85);
   line-height: 1.5;
 }
 
