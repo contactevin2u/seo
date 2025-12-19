@@ -179,20 +179,6 @@
   <url><loc>https://oxygen-concentrator.my/lokasi/sabah/oxygen-concentrator-tawau.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://oxygen-concentrator.my/lokasi/sabah/oxygen-concentrator-tuaran.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
-  <!-- Lokasi - Sarawak -->
-  <url><loc>https://oxygen-concentrator.my/lokasi/sarawak/oxygen-concentrator-betong.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://oxygen-concentrator.my/lokasi/sarawak/oxygen-concentrator-bintulu.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://oxygen-concentrator.my/lokasi/sarawak/oxygen-concentrator-kapit.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://oxygen-concentrator.my/lokasi/sarawak/oxygen-concentrator-kuching.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://oxygen-concentrator.my/lokasi/sarawak/oxygen-concentrator-lawas.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://oxygen-concentrator.my/lokasi/sarawak/oxygen-concentrator-limbang.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://oxygen-concentrator.my/lokasi/sarawak/oxygen-concentrator-miri.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://oxygen-concentrator.my/lokasi/sarawak/oxygen-concentrator-mukah.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://oxygen-concentrator.my/lokasi/sarawak/oxygen-concentrator-saratok.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://oxygen-concentrator.my/lokasi/sarawak/oxygen-concentrator-sarikei.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://oxygen-concentrator.my/lokasi/sarawak/oxygen-concentrator-sibu.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://oxygen-concentrator.my/lokasi/sarawak/oxygen-concentrator-sri-aman.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-
   <!-- Lokasi - Selangor -->
   <url><loc>https://oxygen-concentrator.my/lokasi/selangor/oxygen-concentrator-ampang.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://oxygen-concentrator.my/lokasi/selangor/oxygen-concentrator-bangi.html</loc><lastmod>2025-12-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -944,86 +930,6 @@
   </url>
   <url>
     <loc>https://oxygen-concentrator.my/sabah/oxygen-concentrator-tuaran/</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Sarawak -->
-  <url>
-    <loc>https://oxygen-concentrator.my/sarawak/</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://oxygen-concentrator.my/sarawak/oxygen-concentrator-betong/</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://oxygen-concentrator.my/sarawak/oxygen-concentrator-bintulu/</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://oxygen-concentrator.my/sarawak/oxygen-concentrator-kapit/</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://oxygen-concentrator.my/sarawak/oxygen-concentrator-kuching/</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://oxygen-concentrator.my/sarawak/oxygen-concentrator-lawas/</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://oxygen-concentrator.my/sarawak/oxygen-concentrator-limbang/</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://oxygen-concentrator.my/sarawak/oxygen-concentrator-miri/</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://oxygen-concentrator.my/sarawak/oxygen-concentrator-mukah/</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://oxygen-concentrator.my/sarawak/oxygen-concentrator-saratok/</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://oxygen-concentrator.my/sarawak/oxygen-concentrator-sarikei/</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://oxygen-concentrator.my/sarawak/oxygen-concentrator-sibu/</loc>
-    <lastmod>2025-12-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://oxygen-concentrator.my/sarawak/oxygen-concentrator-sri-aman/</loc>
     <lastmod>2025-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
