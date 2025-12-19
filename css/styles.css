@@ -313,6 +313,8 @@ header nav .cta-button:hover {
 
 .hero-left {
   text-align: left;
+  margin-left: auto;
+  padding-right: 20px;
 }
 
 .hero-badge-wrapper {
