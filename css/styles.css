@@ -1454,12 +1454,21 @@ header nav .cta-button:hover {
 }
 
 .loc-state h4 {
-  color: var(--white);
-  font-size: 1rem;
-  font-weight: 700;
   margin-bottom: 12px;
   padding-bottom: 8px;
   border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+
+.loc-state h4 a {
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+}
+
+.loc-state h4 a:hover {
+  font-size: 1.15rem;
 }
 
 .loc-cities {
@@ -1472,14 +1481,14 @@ header nav .cta-button:hover {
   display: flex;
   align-items: center;
   color: var(--white);
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 0.8rem;
   padding: 2px 0;
-  transition: color 0.2s;
+  transition: all 0.2s ease;
 }
 
 .loc-cities a:hover {
-  color: rgba(255,255,255,0.8);
+  font-size: 0.9rem;
 }
 
 .loc-cities a .pin {
