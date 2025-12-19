@@ -1507,23 +1507,23 @@ header nav .cta-button:hover {
 .locations-cta {
   text-align: center;
   padding: 24px;
-  background: var(--bg);
+  background: #0047b3;
   margin: 0 -24px;
 }
 
 .locations-cta .btn-primary {
-  background: #043c92;
+  background: transparent;
   color: #fff;
   padding: 12px 32px;
   border-radius: 30px;
   font-weight: 600;
-  border: none;
+  border: 2px solid #fff;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: all 0.2s;
 }
 
 .locations-cta .btn-primary:hover {
-  background: #032d6e;
+  background: rgba(255,255,255,0.1);
 }
 
 #toggleLocationsBtn {
