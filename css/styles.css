@@ -1422,12 +1422,12 @@ header nav .cta-button:hover {
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   padding: 24px;
-  background: #e8eef5;
+  background: var(--bg);
   margin: 0 -24px;
 }
 
 .loc-state {
-  background: #dbe4f0;
+  background: var(--white);
   border-radius: 12px;
   padding: 16px;
 }
@@ -1479,9 +1479,8 @@ header nav .cta-button:hover {
 .locations-cta {
   text-align: center;
   padding: 24px;
-  background: #e8eef5;
+  background: var(--bg);
   margin: 0 -24px;
-  border-radius: 0 0 16px 16px;
 }
 
 .locations-cta .btn-primary {
