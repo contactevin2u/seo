@@ -1447,18 +1447,19 @@ header nav .cta-button:hover {
 }
 
 .loc-state {
-  background: var(--white);
+  background: rgba(255,255,255,0.2);
   border-radius: 12px;
   padding: 16px;
+  border: 1px solid rgba(255,255,255,0.3);
 }
 
 .loc-state h4 {
-  color: #043c92;
+  color: var(--white);
   font-size: 1rem;
   font-weight: 700;
   margin-bottom: 12px;
   padding-bottom: 8px;
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 2px solid rgba(255,255,255,0.3);
 }
 
 .loc-cities {
@@ -1470,7 +1471,7 @@ header nav .cta-button:hover {
 .loc-cities a {
   display: flex;
   align-items: center;
-  color: #333;
+  color: var(--white);
   text-decoration: none;
   font-size: 0.8rem;
   padding: 2px 0;
@@ -1478,7 +1479,7 @@ header nav .cta-button:hover {
 }
 
 .loc-cities a:hover {
-  color: #043c92;
+  color: rgba(255,255,255,0.8);
 }
 
 .loc-cities a .pin {
