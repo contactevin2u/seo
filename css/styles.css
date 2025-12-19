@@ -870,12 +870,13 @@ header nav .cta-button:hover {
   align-items: center;
   justify-content: center;
   background: linear-gradient(180deg, #f0f4f8 0%, #e8eef3 100%);
-  padding: 10px;
+  padding: 5px;
   position: relative;
 }
 
 .product-image img {
-  max-height: 170px;
+  max-height: 175px;
+  max-width: 100%;
   object-fit: contain;
   filter: drop-shadow(0 4px 12px rgba(0,0,0,0.1));
 }
