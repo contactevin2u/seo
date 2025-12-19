@@ -1454,18 +1454,30 @@ header nav .cta-button:hover {
 }
 
 .loc-state h4 {
+  margin-bottom: 12px;
+}
+
+.loc-state h4 a {
+  display: inline-block;
   color: var(--white);
   font-size: 1rem;
   font-weight: 700;
-  margin-bottom: 12px;
-  padding-bottom: 8px;
-  border-bottom: 2px solid rgba(255,255,255,0.3);
+  padding: 8px 16px;
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.loc-state h4 a:hover {
+  background: rgba(255,255,255,0.2);
+  border-color: var(--white);
 }
 
 .loc-cities {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2px 6px;
+  gap: 6px;
 }
 
 .loc-cities a {
@@ -1473,13 +1485,17 @@ header nav .cta-button:hover {
   align-items: center;
   color: var(--white);
   text-decoration: none;
-  font-size: 0.8rem;
-  padding: 2px 0;
-  transition: color 0.2s;
+  font-size: 0.75rem;
+  padding: 6px 10px;
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  background: rgba(255,255,255,0.05);
 }
 
 .loc-cities a:hover {
-  color: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.15);
+  border-color: var(--white);
 }
 
 .loc-cities a .pin {
