@@ -896,6 +896,8 @@ header nav .cta-button:hover {
   font-size: 12px;
   font-weight: 600;
   border: 1px solid #e0e7ef;
+  min-width: 85px;
+  text-align: center;
 }
 
 .product-content {
