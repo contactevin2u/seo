@@ -614,10 +614,10 @@ header nav .cta-button:hover {
 }
 
 .feature-text strong {
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 800;
   color: var(--primary);
-  letter-spacing: 0.3px;
+  letter-spacing: 0.5px;
 }
 
 .feature-text span {
