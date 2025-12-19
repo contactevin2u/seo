@@ -1731,6 +1731,11 @@ header nav .cta-button:hover {
   border: 1px solid rgba(255,255,255,0.3);
 }
 
+.hero-badge-center {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
 .coverage-section {
   padding: 60px 0;
   background: var(--white);
