@@ -1428,21 +1428,23 @@ header nav .cta-button:hover {
     padding: 0 16px;
   }
 
-  /* Hero section - Mobile layout: Price → Image → CTA */
+  /* Hero section - Mobile layout: KKM → Image → Price → CTA */
   .hero {
-    padding: 24px 0 50px;
+    padding: 20px 0 45px;
   }
 
   .hero-content {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    gap: 16px;
+    gap: 14px;
   }
 
   .hero-left {
     margin-left: 0;
     text-align: center;
-    order: 3; /* CTA buttons at bottom */
+    order: 4; /* CTA buttons at bottom */
   }
 
   .hero-left .hero-subtitle {
@@ -1454,18 +1456,28 @@ header nav .cta-button:hover {
   }
 
   .hero-right {
-    display: flex !important; /* Show on mobile */
-    order: 1; /* Prices at top */
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
+    display: contents !important; /* Allow children to be reordered independently */
   }
 
   .hero-right .hero-trust-badge {
-    display: none; /* Hide trust badge on mobile */
+    display: flex !important; /* Show KKM logo on mobile */
+    order: 1; /* KKM logo at top */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-right .hero-trust-badge img {
+    max-width: 120px;
+    margin-bottom: 6px;
+  }
+
+  .hero-right .hero-trust-badge .trust-text {
+    font-size: 9px;
+    text-align: center;
   }
 
   .hero-right .hero-prices {
+    order: 3; /* Prices below image */
     flex-direction: column;
     gap: 0;
     max-width: 100%;
