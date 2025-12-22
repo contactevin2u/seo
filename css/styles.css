@@ -1447,10 +1447,22 @@ header nav .cta-button:hover {
     text-align: center;
     order: 3;
     width: 100%;
+    display: contents;
   }
 
   .hero-left .hero-subtitle {
-    display: none;
+    display: block;
+    order: -1;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 4px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-left .hero-cta {
+    order: 10;
+    width: 100%;
   }
 
   /* Image and Price side by side */
