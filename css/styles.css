@@ -1517,6 +1517,14 @@ header nav .cta-button:hover {
     font-size: 9px;
   }
 
+  .hero-right .price-card:first-child .price-amount {
+    color: var(--secondary);
+  }
+
+  .hero-right .price-card:first-child .price-amount strong {
+    color: var(--secondary);
+  }
+
   .hero-text {
     text-align: center;
     order: 2;
