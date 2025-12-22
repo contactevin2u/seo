@@ -1466,26 +1466,38 @@ header nav .cta-button:hover {
   }
 
   .hero-right .hero-prices {
-    flex-direction: row;
-    gap: 12px;
+    flex-direction: column;
+    gap: 0;
     max-width: 100%;
+    background: var(--white);
+    border-radius: 12px;
+    padding: 12px 24px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   }
 
   .hero-right .price-card {
-    padding: 8px 16px;
-    min-width: 140px;
+    padding: 6px 0;
+    min-width: auto;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 1px solid #e8eef3;
+  }
+
+  .hero-right .price-card:last-child {
+    border-bottom: none;
   }
 
   .hero-right .price-label {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .hero-right .price-amount strong {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .hero-right .price-amount {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .hero-text {
@@ -1817,24 +1829,23 @@ header nav .cta-button:hover {
   }
 
   .hero-right .hero-prices {
-    gap: 8px;
+    padding: 10px 20px;
   }
 
   .hero-right .price-card {
-    padding: 6px 12px;
-    min-width: 120px;
+    padding: 5px 0;
   }
 
   .hero-right .price-label {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .hero-right .price-amount strong {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .hero-right .price-amount {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .hero-badge {
