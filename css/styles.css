@@ -1463,28 +1463,42 @@ header nav .cta-button:hover {
   }
 
   .hero-right {
+    display: contents !important;
+  }
+
+  /* KKM Logo - small, at top */
+  .hero-right .hero-trust-badge {
     display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    order: 0;
+    width: 100%;
+  }
+
+  .hero-right .hero-trust-badge img {
+    max-width: 70px;
+    height: auto;
+    margin-bottom: 2px;
+  }
+
+  .hero-right .hero-trust-badge .trust-text {
+    font-size: 7px;
+    line-height: 1.2;
+  }
+
+  /* Price badge - next to image */
+  .hero-right .hero-prices {
     order: 2;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-  }
-
-  .hero-right .hero-trust-badge {
-    display: none;
-  }
-
-  .hero-right .hero-prices {
-    flex-direction: column;
-    gap: 4px;
-    background: rgba(255,255,255,0.95);
-    border-radius: 8px;
-    padding: 8px 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    gap: 2px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 6px;
+    padding: 6px 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   }
 
   .hero-right .price-card {
-    padding: 2px 0;
+    padding: 1px 0;
     min-width: auto;
     background: transparent;
     box-shadow: none;
@@ -1492,15 +1506,15 @@ header nav .cta-button:hover {
   }
 
   .hero-right .price-label {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .hero-right .price-amount strong {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .hero-right .price-amount {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .hero-text {
