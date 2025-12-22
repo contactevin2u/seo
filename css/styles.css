@@ -1428,88 +1428,79 @@ header nav .cta-button:hover {
     padding: 0 16px;
   }
 
-  /* Hero section - Mobile layout: KKM → Image → Price → CTA */
+  /* Hero section - Mobile layout */
   .hero {
-    padding: 20px 0 45px;
+    padding: 20px 0 40px;
   }
 
   .hero-content {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 14px;
+    gap: 12px;
   }
 
   .hero-left {
     margin-left: 0;
     text-align: center;
-    order: 4; /* CTA buttons at bottom */
+    order: 3;
+    width: 100%;
   }
 
   .hero-left .hero-subtitle {
-    display: none; /* Hide subtitle on mobile to save space */
+    display: none;
   }
 
+  /* Image and Price side by side */
   .hero-center {
-    order: 2; /* Image in middle */
+    order: 1;
+  }
+
+  .hero-center img {
+    max-height: 150px;
   }
 
   .hero-right {
-    display: contents !important; /* Allow children to be reordered independently */
+    display: flex !important;
+    order: 2;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
   }
 
   .hero-right .hero-trust-badge {
-    display: flex !important; /* Show KKM logo on mobile */
-    order: 1; /* KKM logo at top */
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hero-right .hero-trust-badge img {
-    max-width: 120px;
-    margin-bottom: 6px;
-  }
-
-  .hero-right .hero-trust-badge .trust-text {
-    font-size: 9px;
-    text-align: center;
+    display: none;
   }
 
   .hero-right .hero-prices {
-    order: 3; /* Prices below image */
     flex-direction: column;
-    gap: 0;
-    max-width: 100%;
-    background: var(--white);
-    border-radius: 12px;
-    padding: 12px 24px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    gap: 4px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 8px;
+    padding: 8px 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
 
   .hero-right .price-card {
-    padding: 6px 0;
+    padding: 2px 0;
     min-width: auto;
     background: transparent;
     box-shadow: none;
     border-radius: 0;
-    border-bottom: 1px solid #e8eef3;
-  }
-
-  .hero-right .price-card:last-child {
-    border-bottom: none;
   }
 
   .hero-right .price-label {
-    font-size: 14px;
+    font-size: 11px;
   }
 
   .hero-right .price-amount strong {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .hero-right .price-amount {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .hero-text {
