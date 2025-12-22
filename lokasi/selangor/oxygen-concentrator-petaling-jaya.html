@@ -72,8 +72,24 @@
         </span>
         WhatsApp
       </a>
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </header>
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav-overlay"></div>
+  <nav class="mobile-nav">
+    <a href="/">Utama</a>
+    <a href="/sewa-oxygen-concentrator.html">Sewa</a>
+    <a href="/beli-oxygen-concentrator.html">Beli</a>
+    <a href="/blog/">Blog</a>
+    <a href="/lokasi.html">Lokasi</a>
+    <a href="https://wa.me/601128686592?text=Saya%20berminat%20oxygen%20concentrator" class="mobile-cta">WhatsApp Kami</a>
+  </nav>
 
   <!-- BREADCRUMB -->
   <nav class="breadcrumb">
@@ -381,5 +397,41 @@
       </div>
     </div>
   </footer>
+
+  <!-- Mobile Menu Script -->
+  <script>
+    (function() {
+      const menuToggle = document.querySelector('.mobile-menu-toggle');
+      const mobileNav = document.querySelector('.mobile-nav');
+      const overlay = document.querySelector('.mobile-nav-overlay');
+
+      function toggleMenu() {
+        menuToggle.classList.toggle('active');
+        mobileNav.classList.toggle('active');
+        overlay.classList.toggle('active');
+        document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+      }
+
+      function closeMenu() {
+        menuToggle.classList.remove('active');
+        mobileNav.classList.remove('active');
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+
+      if (menuToggle) {
+        menuToggle.addEventListener('click', toggleMenu);
+      }
+
+      if (overlay) {
+        overlay.addEventListener('click', closeMenu);
+      }
+
+      const navLinks = document.querySelectorAll('.mobile-nav a');
+      navLinks.forEach(link => {
+        link.addEventListener('click', closeMenu);
+      });
+    })();
+  </script>
 </body>
 </html>
