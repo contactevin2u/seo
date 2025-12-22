@@ -646,6 +646,22 @@ header nav .cta-button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.recommend-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: linear-gradient(135deg, #00a651 0%, #00875a 100%);
+  color: var(--white);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  font-style: italic;
+  box-shadow: 0 4px 12px rgba(0,166,81,0.3);
+  z-index: 5;
 }
 
 .recommend-image img {
