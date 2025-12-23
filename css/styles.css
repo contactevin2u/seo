@@ -1496,14 +1496,14 @@ header nav .cta-button:hover {
     gap: 16px;
   }
 
-  /* KKM Logo - LEFT side of image */
+  /* KKM Logo - LEFT side of image, above price card */
   .hero-right .hero-trust-badge {
     display: flex !important;
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 22%;
-    top: 70%;
+    left: 8%;
+    top: 45%;
     transform: translateY(-50%);
     z-index: 10;
   }
@@ -2147,7 +2147,8 @@ header nav .cta-button:hover {
   }
 
   .hero-right .hero-trust-badge {
-    left: 18%;
+    left: 5%;
+    top: 42%;
   }
 
   .hero-right .hero-trust-badge img {
