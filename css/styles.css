@@ -1428,18 +1428,27 @@ header nav .cta-button:hover {
     padding: 0 16px;
   }
 
-  /* Hero section - Mobile layout */
+  /* Hero section - Mobile layout - Cleaner vertical flow */
   .hero {
-    padding: 20px 0 40px;
+    padding: 24px 0 50px;
+  }
+
+  .hero-badge-center {
+    margin-bottom: 12px;
+  }
+
+  .location-badge {
+    font-size: 11px;
+    padding: 5px 14px;
   }
 
   .hero-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 12px;
+    gap: 20px;
+    margin-top: 16px;
   }
 
   .hero-left {
@@ -1447,92 +1456,95 @@ header nav .cta-button:hover {
     text-align: center;
     order: 3;
     width: 100%;
-    display: contents;
   }
 
   .hero-left .hero-subtitle {
     display: block;
-    order: -1;
-    font-size: 12px;
-    line-height: 1.5;
-    margin-bottom: 4px;
-    width: 100%;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
   }
 
   .hero-left .hero-cta {
-    order: 10;
     width: 100%;
   }
 
-  /* Image and Price side by side */
+  /* Image centered prominently */
   .hero-center {
     order: 1;
+    width: 100%;
   }
 
   .hero-center img {
-    max-height: 220px;
+    max-height: 240px;
+    width: auto;
   }
 
   .hero-right {
-    display: contents !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+    width: 100%;
+    gap: 16px;
   }
 
-  /* KKM Logo - small, at top */
+  /* KKM Logo - compact */
   .hero-right .hero-trust-badge {
     display: flex !important;
     flex-direction: column;
     align-items: center;
-    order: 0;
-    width: 100%;
   }
 
   .hero-right .hero-trust-badge img {
-    max-width: 70px;
+    max-width: 80px;
     height: auto;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
   }
 
   .hero-right .hero-trust-badge .trust-text {
-    font-size: 7px;
-    line-height: 1.2;
+    font-size: 8px;
+    line-height: 1.3;
   }
 
-  /* Price badge - next to image */
+  /* Price cards - horizontal on mobile */
   .hero-right .hero-prices {
-    order: 2;
-    flex-direction: column;
-    gap: 2px;
-    background: rgba(255,255,255,0.9);
-    border-radius: 6px;
-    padding: 6px 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    flex-direction: row;
+    gap: 12px;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    max-width: 100%;
   }
 
   .hero-right .price-card {
-    padding: 1px 0;
-    min-width: auto;
-    background: transparent;
-    box-shadow: none;
-    border-radius: 0;
+    padding: 12px 20px;
+    min-width: 140px;
+    background: var(--white);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    flex: 1;
   }
 
   .hero-right .price-label {
-    font-size: 10px;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 2px;
   }
 
   .hero-right .price-amount strong {
-    font-size: 14px;
+    font-size: 22px;
   }
 
   .hero-right .price-amount {
-    font-size: 9px;
+    font-size: 11px;
   }
 
-  .hero-right .price-card:first-child .price-amount {
-    color: var(--secondary);
-  }
-
+  .hero-right .price-card:first-child .price-amount,
   .hero-right .price-card:first-child .price-amount strong {
     color: var(--secondary);
   }
@@ -1547,20 +1559,17 @@ header nav .cta-button:hover {
   }
 
   .hero-image img {
-    max-height: 200px;
-  }
-
-  .hero-center img {
-    max-height: 180px;
+    max-height: 220px;
   }
 
   .hero-title {
-    font-size: 26px;
-    line-height: 1.3;
+    font-size: 28px;
+    line-height: 1.25;
+    margin-bottom: 12px;
   }
 
   .hero h1 {
-    font-size: 26px;
+    font-size: 28px;
   }
 
   .hero-subtitle {
@@ -1572,6 +1581,7 @@ header nav .cta-button:hover {
 
   .hero-cta {
     align-items: center;
+    gap: 12px;
   }
 
   .hero-badge {
@@ -1580,15 +1590,16 @@ header nav .cta-button:hover {
     height: 30px;
   }
 
-  /* CTA Buttons - better touch targets */
+  /* CTA Buttons - improved touch targets */
   .btn-whatsapp,
   .btn-phone {
     width: 100%;
-    max-width: 300px;
+    max-width: 320px;
     justify-content: center;
-    padding: 14px 20px;
-    font-size: 14px;
-    min-height: 48px;
+    padding: 16px 24px;
+    font-size: 15px;
+    min-height: 52px;
+    border-radius: 50px;
   }
 
   .btn {
@@ -1602,28 +1613,41 @@ header nav .cta-button:hover {
     font-size: 16px;
   }
 
-  /* Features bar */
+  /* Features bar - horizontal scroll */
   .features-bar {
-    margin-top: -35px;
+    margin-top: -40px;
   }
 
   .features-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-    padding: 12px 16px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 0;
+    padding: 16px 12px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .features-grid::-webkit-scrollbar {
+    display: none;
   }
 
   .feature-item {
-    padding: 10px 6px;
+    flex: 0 0 auto;
+    min-width: 110px;
+    padding: 12px 8px;
+    scroll-snap-align: start;
   }
 
   .feature-icon svg {
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
   }
 
   .feature-text strong {
-    font-size: 12px;
+    font-size: 10px;
+    letter-spacing: 0.3px;
   }
 
   .feature-text span {
@@ -1645,7 +1669,14 @@ header nav .cta-button:hover {
   }
 
   .recommend-image img {
-    max-height: 280px;
+    max-height: 260px;
+  }
+
+  .recommend-badge {
+    top: 5px;
+    left: 5px;
+    padding: 6px 12px;
+    font-size: 11px;
   }
 
   .recommend-grid {
@@ -1654,23 +1685,36 @@ header nav .cta-button:hover {
   }
 
   .recommend-card {
-    padding: 20px 16px;
+    padding: 18px 14px;
+    border-radius: 12px;
   }
 
   .recommend-img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 12px;
+    border-width: 2px;
   }
 
   .recommend-card h3 {
-    font-size: 16px;
+    font-size: 14px;
+    margin-bottom: 6px;
   }
 
   .recommend-card p {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 1.5;
   }
 
-  /* Products */
+  .recommend-cta {
+    padding-top: 24px;
+  }
+
+  .recommend-cta p {
+    font-size: 14px;
+  }
+
+  /* Products - Full width cards */
   .products-section {
     padding: 50px 0 60px;
   }
@@ -1681,8 +1725,71 @@ header nav .cta-button:hover {
   }
 
   .product-card {
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-badge {
+    top: 12px;
+    left: 12px;
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+
+  .product-image {
+    height: 200px;
+  }
+
+  .product-image img {
+    max-height: 190px;
+  }
+
+  .product-specs {
+    padding: 10px 12px;
+    gap: 6px;
+  }
+
+  .product-specs span {
+    padding: 4px 10px;
+    font-size: 11px;
+    min-width: auto;
+  }
+
+  .product-content {
+    padding: 18px;
+  }
+
+  .product-content h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .product-desc {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .price-row {
+    padding: 12px 0;
+  }
+
+  .price-row span {
+    font-size: 14px;
+  }
+
+  .price-row strong {
+    font-size: 22px;
+  }
+
+  .price-row strong small {
+    font-size: 13px;
+  }
+
+  .product-card .btn-primary {
+    padding: 16px 20px;
+    font-size: 15px;
   }
 
   /* Why us */
@@ -1692,19 +1799,26 @@ header nav .cta-button:hover {
 
   .why-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 16px;
   }
 
   .why-card {
-    padding: 24px 16px;
+    padding: 20px 14px;
   }
 
   .why-icon {
-    font-size: 36px;
+    font-size: 32px;
+    margin-bottom: 12px;
   }
 
   .why-card h3 {
-    font-size: 16px;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .why-card p {
+    font-size: 12px;
+    line-height: 1.5;
   }
 
   /* Gallery */
@@ -1714,15 +1828,35 @@ header nav .cta-button:hover {
 
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  .gallery-item {
+    border-radius: 10px;
+  }
+
+  .gallery-caption {
+    padding: 30px 12px 12px;
+    font-size: 12px;
   }
 
   .gallery-trust {
-    gap: 24px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .trust-stat {
+    min-width: 100px;
   }
 
   .stat-number {
-    font-size: 32px;
+    font-size: 36px;
+  }
+
+  .stat-label {
+    font-size: 12px;
   }
 
   /* Areas */
@@ -1732,50 +1866,71 @@ header nav .cta-button:hover {
 
   .areas-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    gap: 10px;
   }
 
   .area-card {
-    padding: 20px 16px;
+    padding: 18px 14px;
+    border-radius: 10px;
   }
 
   .area-card h3 {
-    font-size: 16px;
+    font-size: 15px;
+    margin-bottom: 4px;
   }
 
-  /* FAQ */
+  .delivery-time {
+    font-size: 12px;
+  }
+
+  .areas-cta {
+    margin-top: 24px;
+  }
+
+  .areas-section .btn-outline {
+    padding: 14px 28px;
+    font-size: 14px;
+  }
+
+  /* FAQ - Accordion style */
   .faq-section {
     padding: 50px 0;
   }
 
   .faq-grid {
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 12px;
   }
 
   .faq-item {
-    padding: 20px;
+    padding: 18px;
+    border-radius: 10px;
   }
 
   .faq-item h3 {
-    font-size: 16px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 1.4;
   }
 
   .faq-item p {
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 1.6;
   }
 
   /* Section headers */
   .section-header {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
+    padding: 0 8px;
   }
 
   .section-header h2 {
-    font-size: 24px;
+    font-size: 22px;
+    line-height: 1.3;
   }
 
   .section-header p {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   /* CTA Section */
@@ -1784,11 +1939,12 @@ header nav .cta-button:hover {
   }
 
   .cta-content h2 {
-    font-size: 24px;
+    font-size: 22px;
+    line-height: 1.3;
   }
 
   .cta-content > p {
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 24px;
   }
 
@@ -1798,6 +1954,17 @@ header nav .cta-button:hover {
     gap: 12px;
   }
 
+  .cta-buttons .btn-white,
+  .cta-buttons .btn-outline-white {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+
+  .cta-hours p {
+    font-size: 12px;
+  }
+
   /* Footer */
   .footer {
     padding: 40px 0 24px;
@@ -1805,16 +1972,40 @@ header nav .cta-button:hover {
 
   .footer-grid {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 28px;
     text-align: center;
   }
 
   .footer-col h4 {
-    margin-bottom: 16px;
+    margin-bottom: 14px;
+    font-size: 15px;
+  }
+
+  .footer-col p {
+    font-size: 13px;
+  }
+
+  .footer-col ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 16px;
+  }
+
+  .footer-col li {
+    margin-bottom: 0;
+  }
+
+  .footer-col a {
+    font-size: 13px;
   }
 
   .footer-bottom {
-    padding-top: 24px;
+    padding-top: 20px;
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
   }
 }
 
@@ -1835,60 +2026,99 @@ header nav .cta-button:hover {
     font-size: 11px;
   }
 
+  .navbar {
+    padding: 12px 0;
+  }
+
+  .logo {
+    font-size: 15px;
+  }
+
+  .logo-icon {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+
   /* Hero - Small phones */
   .hero {
-    padding: 16px 0 35px;
+    padding: 20px 0 40px;
+  }
+
+  .hero-badge-center {
+    margin-bottom: 10px;
+  }
+
+  .location-badge {
+    font-size: 10px;
+    padding: 4px 12px;
   }
 
   .hero-content {
-    gap: 12px;
+    gap: 16px;
+    margin-top: 12px;
   }
 
   .hero-title {
-    font-size: 22px;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 10px;
   }
 
   .hero h1 {
-    font-size: 22px;
+    font-size: 24px;
   }
 
-  .hero-subtitle {
-    font-size: 13px;
-    line-height: 1.6;
+  .hero-left .hero-subtitle {
+    font-size: 12px;
+    line-height: 1.5;
+    max-width: 280px;
+    margin-bottom: 16px;
+  }
+
+  .hero-center img {
+    max-height: 200px;
   }
 
   .hero-image img {
     max-height: 180px;
   }
 
-  .hero-center img {
-    max-height: 180px;
-  }
-
+  /* Price cards side by side on small phones */
   .hero-right .hero-prices {
-    padding: 6px 10px;
+    flex-direction: row;
+    gap: 8px;
   }
 
   .hero-right .price-card {
-    padding: 5px 0;
+    padding: 10px 14px;
+    min-width: 0;
+    flex: 1;
   }
 
   .hero-right .price-label {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .hero-right .price-amount strong {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .hero-right .price-amount {
-    font-size: 12px;
+    font-size: 10px;
+  }
+
+  .hero-right .hero-trust-badge img {
+    max-width: 60px;
+  }
+
+  .hero-right .hero-trust-badge .trust-text {
+    font-size: 7px;
   }
 
   .hero-badge {
-    font-size: 11px;
-    padding: 0 16px;
-    height: 28px;
+    font-size: 10px;
+    padding: 0 14px;
+    height: 26px;
   }
 
   .hero-cta {
@@ -1897,26 +2127,25 @@ header nav .cta-button:hover {
 
   .btn-whatsapp,
   .btn-phone {
-    padding: 12px 16px;
-    font-size: 13px;
-    min-height: 44px;
+    padding: 14px 20px;
+    font-size: 14px;
+    min-height: 48px;
     max-width: 100%;
   }
 
-  /* Features bar */
+  /* Features bar - horizontal scroll */
   .features-bar {
-    margin-top: -25px;
+    margin-top: -30px;
   }
 
   .features-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 6px;
-    padding: 10px 12px;
-    border-radius: 12px;
+    padding: 14px 10px;
+    border-radius: 14px;
   }
 
   .feature-item {
-    padding: 8px 4px;
+    min-width: 95px;
+    padding: 10px 6px;
   }
 
   .feature-icon svg {
@@ -1925,7 +2154,8 @@ header nav .cta-button:hover {
   }
 
   .feature-text strong {
-    font-size: 10px;
+    font-size: 9px;
+    letter-spacing: 0.2px;
   }
 
   /* Recommend */
@@ -1937,26 +2167,49 @@ header nav .cta-button:hover {
     max-height: 200px;
   }
 
+  .recommend-badge {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
   .recommend-grid {
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 10px;
   }
 
   .recommend-card {
-    padding: 16px;
+    padding: 16px 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    text-align: left;
   }
 
   .recommend-img {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    flex-shrink: 0;
   }
 
   .recommend-card h3 {
-    font-size: 15px;
+    font-size: 14px;
+    margin-bottom: 4px;
   }
 
   .recommend-card p {
-    font-size: 12px;
+    font-size: 11px;
+    line-height: 1.4;
+  }
+
+  .recommend-cta p {
+    font-size: 13px;
+  }
+
+  .recommend-cta .btn-primary {
+    padding: 14px 24px;
+    font-size: 14px;
   }
 
   /* Products */
@@ -1964,12 +2217,36 @@ header nav .cta-button:hover {
     padding: 40px 0 50px;
   }
 
-  .product-card {
-    max-width: 100%;
+  .products-grid {
+    gap: 16px;
+  }
+
+  .product-badge {
+    top: 10px;
+    left: 10px;
+    padding: 4px 10px;
+    font-size: 11px;
   }
 
   .product-image {
-    height: 160px;
+    height: 180px;
+  }
+
+  .product-image img {
+    max-height: 170px;
+  }
+
+  .product-specs {
+    padding: 8px 10px;
+    gap: 4px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .product-specs span {
+    padding: 3px 8px;
+    font-size: 10px;
+    min-width: auto;
   }
 
   .product-content {
@@ -1980,23 +2257,65 @@ header nav .cta-button:hover {
     font-size: 18px;
   }
 
-  /* Why us */
+  .product-desc {
+    font-size: 13px;
+    margin-bottom: 14px;
+  }
+
+  .price-row {
+    padding: 10px 0;
+  }
+
+  .price-row span {
+    font-size: 13px;
+  }
+
+  .price-row strong {
+    font-size: 20px;
+  }
+
+  .price-row strong small {
+    font-size: 12px;
+  }
+
+  .product-card .btn-primary {
+    padding: 14px 18px;
+    font-size: 14px;
+  }
+
+  /* Why us - single column */
   .why-us-section {
     padding: 40px 0;
   }
 
   .why-grid {
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 12px;
   }
 
   .why-card {
-    padding: 20px;
+    padding: 18px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 14px;
+    text-align: left;
   }
 
   .why-icon {
-    font-size: 32px;
-    margin-bottom: 12px;
+    font-size: 28px;
+    margin-bottom: 0;
+    flex-shrink: 0;
+  }
+
+  .why-card h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .why-card p {
+    font-size: 12px;
+    line-height: 1.5;
   }
 
   /* Gallery */
@@ -2006,15 +2325,35 @@ header nav .cta-button:hover {
 
   .gallery-grid {
     gap: 8px;
+    margin-bottom: 32px;
+  }
+
+  .gallery-item {
+    border-radius: 8px;
+  }
+
+  .gallery-caption {
+    padding: 25px 10px 10px;
+    font-size: 11px;
   }
 
   .gallery-trust {
-    gap: 20px;
-    flex-direction: column;
+    gap: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .trust-stat {
+    min-width: 80px;
   }
 
   .stat-number {
     font-size: 28px;
+    margin-bottom: 4px;
+  }
+
+  .stat-label {
+    font-size: 11px;
   }
 
   /* Areas */
@@ -2024,11 +2363,28 @@ header nav .cta-button:hover {
 
   .areas-grid {
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 8px;
   }
 
   .area-card {
-    padding: 16px;
+    padding: 14px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .area-card h3 {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .delivery-time {
+    font-size: 11px;
+  }
+
+  .areas-section .btn-outline {
+    padding: 12px 24px;
+    font-size: 13px;
   }
 
   /* FAQ */
@@ -2036,29 +2392,39 @@ header nav .cta-button:hover {
     padding: 40px 0;
   }
 
+  .faq-grid {
+    gap: 10px;
+  }
+
   .faq-item {
     padding: 16px;
+    border-radius: 8px;
   }
 
   .faq-item h3 {
-    font-size: 15px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 1.4;
   }
 
   .faq-item p {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 1.6;
   }
 
   /* Section headers */
   .section-header {
     margin-bottom: 24px;
+    padding: 0 4px;
   }
 
   .section-header h2 {
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 1.3;
   }
 
   .section-header p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   /* CTA */
@@ -2067,11 +2433,27 @@ header nav .cta-button:hover {
   }
 
   .cta-content h2 {
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 1.3;
   }
 
   .cta-content > p {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .cta-buttons {
+    gap: 10px;
+  }
+
+  .cta-buttons .btn-white,
+  .cta-buttons .btn-outline-white {
+    padding: 14px 24px;
     font-size: 14px;
+  }
+
+  .cta-hours p {
+    font-size: 11px;
   }
 
   /* Footer */
@@ -2084,33 +2466,108 @@ header nav .cta-button:hover {
   }
 
   .footer-col h4 {
-    font-size: 15px;
+    font-size: 14px;
+    margin-bottom: 12px;
   }
 
-  .footer-col p,
-  .footer-col a {
-    font-size: 13px;
-  }
-
-  .footer-bottom p {
+  .footer-col p {
     font-size: 12px;
   }
 
-  /* Price cards in hero */
-  .hero-prices {
-    max-width: 200px;
+  .footer-col ul {
+    gap: 6px 14px;
   }
 
-  .price-card {
-    padding: 6px 16px;
+  .footer-col a {
+    font-size: 12px;
   }
 
-  .price-label {
+  .footer-bottom {
+    padding-top: 16px;
+  }
+
+  .footer-bottom p {
+    font-size: 11px;
+  }
+}
+
+/* ===== STICKY MOBILE CTA ===== */
+.mobile-sticky-cta {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-sticky-cta {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg, #00a651 0%, #00875a 100%);
+    padding: 12px 16px;
+    z-index: 998;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-sticky-cta a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-weight: 600;
     font-size: 14px;
+    text-align: center;
+    max-width: 180px;
   }
 
-  .price-amount strong {
-    font-size: 24px;
+  .mobile-sticky-cta .sticky-whatsapp {
+    background: var(--white);
+    color: #00a651;
+  }
+
+  .mobile-sticky-cta .sticky-call {
+    background: rgba(255,255,255,0.2);
+    color: var(--white);
+    border: 1px solid rgba(255,255,255,0.4);
+  }
+
+  .mobile-sticky-cta svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+
+  /* Add padding to body to prevent content from being hidden behind sticky CTA */
+  body {
+    padding-bottom: 70px;
+  }
+
+  /* Hide footer's bottom padding when sticky CTA is present */
+  .footer {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobile-sticky-cta {
+    padding: 10px 12px;
+  }
+
+  .mobile-sticky-cta a {
+    padding: 10px 12px;
+    font-size: 13px;
+    gap: 6px;
+  }
+
+  .mobile-sticky-cta svg {
+    width: 16px;
+    height: 16px;
   }
 }
 
