@@ -1460,10 +1460,10 @@ header nav .cta-button:hover {
 
   .hero-left .hero-subtitle {
     display: block;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.4;
     margin-bottom: 20px;
-    max-width: 340px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -1471,7 +1471,8 @@ header nav .cta-button:hover {
     top: 155px;
     left: 50%;
     transform: translateX(-50%);
-    width: 92%;
+    width: 100%;
+    padding: 0 10px;
   }
 
   .hero-left .hero-cta {
@@ -2113,12 +2114,13 @@ header nav .cta-button:hover {
   }
 
   .hero-left .hero-subtitle {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1.4;
-    max-width: 300px;
+    max-width: 100%;
     margin-bottom: 16px;
     top: 135px;
-    width: 95%;
+    width: 100%;
+    padding: 0 8px;
   }
 
   .hero-center img {
