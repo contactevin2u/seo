@@ -1448,7 +1448,7 @@ header nav .cta-button:hover {
     align-items: center;
     text-align: center;
     gap: 20px;
-    margin-top: 80px;
+    margin-top: 55px;
   }
 
   .hero-left {
@@ -2099,7 +2099,7 @@ header nav .cta-button:hover {
 
   .hero-content {
     gap: 16px;
-    margin-top: 70px;
+    margin-top: 50px;
   }
 
   .hero-title {
