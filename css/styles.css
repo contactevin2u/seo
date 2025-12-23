@@ -1503,7 +1503,7 @@ header nav .cta-button:hover {
     align-items: center;
     position: absolute;
     left: 22%;
-    top: 38%;
+    top: 70%;
     transform: translateY(-50%);
     z-index: 10;
   }
