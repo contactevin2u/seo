@@ -1629,13 +1629,13 @@ header nav .cta-button:hover {
     font-size: 16px;
   }
 
-  /* Features bar - 2x2 grid with blue background */
+  /* Features bar - 2x2 grid, white section, blue cards */
   .features-bar {
     margin-top: -40px;
-    background: #043c92;
+    background: var(--white);
     padding: 20px 16px;
     border-radius: var(--radius-lg);
-    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   }
 
   .features-grid {
@@ -1650,17 +1650,16 @@ header nav .cta-button:hover {
 
   .feature-item {
     padding: 16px 12px;
-    background: rgba(255,255,255,0.1);
+    background: #043c92;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border: 1px solid rgba(255,255,255,0.15);
   }
 
   .feature-item:hover {
-    background: rgba(255,255,255,0.15);
+    background: #03347d;
   }
 
   .feature-icon {
