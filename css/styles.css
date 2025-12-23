@@ -2529,7 +2529,7 @@ header nav .cta-button:hover {
   }
 }
 
-/* ===== STICKY MOBILE CTA ===== */
+/* ===== STICKY MOBILE CTA - Floating Circles ===== */
 .mobile-sticky-cta {
   display: none;
 }
@@ -2537,75 +2537,72 @@ header nav .cta-button:hover {
 @media (max-width: 768px) {
   .mobile-sticky-cta {
     display: flex;
+    flex-direction: column;
     position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(135deg, #00a651 0%, #00875a 100%);
-    padding: 12px 16px;
+    bottom: 20px;
+    right: 16px;
     z-index: 998;
-    box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+    gap: 12px;
   }
 
   .mobile-sticky-cta a {
-    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    padding: 12px 16px;
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: 14px;
-    text-align: center;
-    max-width: 180px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .mobile-sticky-cta a:active {
+    transform: scale(0.95);
   }
 
   .mobile-sticky-cta .sticky-whatsapp {
-    background: var(--white);
-    color: #00a651;
+    background: #25D366;
+    color: var(--white);
   }
 
   .mobile-sticky-cta .sticky-call {
-    background: rgba(255,255,255,0.2);
+    background: #0052cc;
     color: var(--white);
-    border: 1px solid rgba(255,255,255,0.4);
+    border: none;
   }
 
   .mobile-sticky-cta svg {
-    width: 18px;
-    height: 18px;
+    width: 26px;
+    height: 26px;
     flex-shrink: 0;
   }
 
-  /* Add padding to body to prevent content from being hidden behind sticky CTA */
-  body {
-    padding-bottom: 70px;
+  /* Hide text labels on mobile floating buttons */
+  .mobile-sticky-cta .cta-label {
+    display: none;
   }
 
-  /* Hide footer's bottom padding when sticky CTA is present */
-  .footer {
-    padding-bottom: 30px;
+  /* No extra body padding needed for floating buttons */
+  body {
+    padding-bottom: 0;
   }
 }
 
 @media (max-width: 480px) {
   .mobile-sticky-cta {
-    padding: 10px 12px;
+    bottom: 16px;
+    right: 12px;
+    gap: 10px;
   }
 
   .mobile-sticky-cta a {
-    padding: 10px 12px;
-    font-size: 13px;
-    gap: 6px;
+    width: 52px;
+    height: 52px;
   }
 
   .mobile-sticky-cta svg {
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
   }
 }
 
