@@ -6,7 +6,8 @@
       "Bash(git add:*)",
       "Bash(git commit -m \"$(cat <<''EOF''\nfeat: Add aggressive SEO blog content with 12 articles\n\nBlog articles targeting high-volume keywords:\n- Sewa Oxygen Concentrator Malaysia Panduan Lengkap\n- Oxygen Concentrator vs Tong Oksigen\n- Oxygen Concentrator untuk COPD\n- Portable Oxygen for Travel/Umrah/Haji\n- Cara Guna Oxygen Concentrator Tutorial\n- Oxygen Concentrator vs Nebulizer\n- Oxygen Concentrator vs CPAP Machine\n- Harga Oxygen Concentrator Malaysia 2024\n- COVID-19 Recovery Oxygen Therapy\n- Oxygen for Warga Emas (Elderly)\n- Kos Elektrik Oxygen Concentrator\n\nEach article includes:\n- Featured snippet optimization\n- Article + FAQ + HowTo schema markup\n- Table of contents for navigation\n- Keyword-rich H1, H2, H3 tags\n- Internal linking to main pages\n- CTA boxes for conversions\n\nUpdated sitemap.xml with all blog pages.\nAdded Blog link to main navigation.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(git push:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "WebFetch(domain:testing-catalogue.my.canva.site)"
     ],
     "deny": [],
     "ask": []
