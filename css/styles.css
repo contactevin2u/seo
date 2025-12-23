@@ -1473,15 +1473,18 @@ header nav .cta-button:hover {
     width: 100%;
   }
 
-  /* Image centered prominently */
+  /* Image centered with KKM on left */
   .hero-center {
     order: 1;
     width: 100%;
+    position: relative;
   }
 
   .hero-center img {
     max-height: 240px;
     width: auto;
+    display: block;
+    margin: 0 auto;
   }
 
   .hero-right {
@@ -1493,22 +1496,29 @@ header nav .cta-button:hover {
     gap: 16px;
   }
 
-  /* KKM Logo - compact */
+  /* KKM Logo - LEFT side of image */
   .hero-right .hero-trust-badge {
     display: flex !important;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
   }
 
   .hero-right .hero-trust-badge img {
-    max-width: 80px;
+    max-width: 70px;
     height: auto;
     margin-bottom: 4px;
   }
 
   .hero-right .hero-trust-badge .trust-text {
-    font-size: 8px;
-    line-height: 1.3;
+    font-size: 7px;
+    line-height: 1.2;
+    max-width: 75px;
+    text-align: center;
   }
 
   /* Price cards - horizontal on mobile */
@@ -2136,12 +2146,17 @@ header nav .cta-button:hover {
     font-size: 10px;
   }
 
+  .hero-right .hero-trust-badge {
+    left: 5px;
+  }
+
   .hero-right .hero-trust-badge img {
-    max-width: 60px;
+    max-width: 55px;
   }
 
   .hero-right .hero-trust-badge .trust-text {
-    font-size: 7px;
+    font-size: 6px;
+    max-width: 60px;
   }
 
   .hero-badge {
