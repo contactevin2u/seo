@@ -765,6 +765,117 @@ header nav .cta-button:hover {
   font-size: 16px;
 }
 
+/* New Recommend Section Styles */
+.recommend-product-box {
+  background: linear-gradient(180deg, #e8f4f8 0%, #d9eef5 100%);
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.recommend-product-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.recommend-product-image {
+  flex: 0 0 auto;
+}
+
+.recommend-product-image img {
+  max-width: 280px;
+  height: auto;
+  filter: drop-shadow(0 8px 20px rgba(0,0,0,0.15));
+}
+
+.recommend-product-info {
+  flex: 1;
+}
+
+.product-label-green {
+  display: inline-block;
+  color: #00a651;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.recommend-product-info h3 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #043c92;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.recommend-product-info p {
+  font-size: 15px;
+  color: #5a6978;
+  line-height: 1.6;
+}
+
+.recommend-product-info p strong {
+  color: #00a651;
+  font-weight: 700;
+}
+
+/* Patient Cards */
+.recommend-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.recommend-card-new {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: var(--white);
+  border-radius: 16px;
+  padding: 20px 24px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+}
+
+.recommend-card-new:hover {
+  box-shadow: 0 6px 20px rgba(4, 60, 146, 0.12);
+  transform: translateX(5px);
+}
+
+.recommend-card-img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #043c92;
+  box-shadow: 0 4px 12px rgba(4, 60, 146, 0.2);
+}
+
+.recommend-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recommend-card-text h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #043c92;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.recommend-card-text p {
+  font-size: 14px;
+  color: #5a6978;
+  line-height: 1.5;
+  margin: 0;
+}
+
 /* ===== SECTION HEADER ===== */
 .section-header {
   text-align: center;
@@ -1910,6 +2021,62 @@ header nav .cta-button:hover {
     font-size: 14px;
   }
 
+  /* New Recommend Section Mobile */
+  .recommend-product-box {
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+  }
+
+  .recommend-product-content {
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .recommend-product-image img {
+    max-width: 140px;
+  }
+
+  .product-label-green {
+    font-size: 16px;
+  }
+
+  .recommend-product-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .recommend-product-info p {
+    font-size: 13px;
+  }
+
+  .recommend-cards {
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+
+  .recommend-card-new {
+    padding: 16px;
+    gap: 14px;
+    border-radius: 12px;
+  }
+
+  .recommend-card-img {
+    width: 65px;
+    height: 65px;
+    border-width: 2px;
+  }
+
+  .recommend-card-text h4 {
+    font-size: 15px;
+    margin-bottom: 4px;
+  }
+
+  .recommend-card-text p {
+    font-size: 12px;
+  }
+
   /* Products - Full width cards */
   .products-section {
     padding: 50px 0 60px;
@@ -2474,6 +2641,59 @@ header nav .cta-button:hover {
   .recommend-cta .btn-primary {
     padding: 14px 24px;
     font-size: 14px;
+  }
+
+  /* New Recommend Section 480px */
+  .recommend-product-box {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .recommend-product-content {
+    gap: 12px;
+  }
+
+  .recommend-product-image img {
+    max-width: 120px;
+  }
+
+  .product-label-green {
+    font-size: 14px;
+  }
+
+  .recommend-product-info h3 {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .recommend-product-info p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .recommend-cards {
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .recommend-card-new {
+    padding: 14px;
+    gap: 12px;
+    border-radius: 10px;
+  }
+
+  .recommend-card-img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .recommend-card-text h4 {
+    font-size: 13px;
+  }
+
+  .recommend-card-text p {
+    font-size: 11px;
+    line-height: 1.4;
   }
 
   /* Products */
