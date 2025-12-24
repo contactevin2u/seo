@@ -3122,21 +3122,21 @@ header nav .cta-button:hover {
 .locations-grid-full {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-  padding: 24px;
+  gap: 10px;
+  padding: 16px;
   background: #0047b3;
   margin: 0 -24px;
 }
 
 .loc-state {
   background: rgba(255,255,255,0.2);
-  border-radius: 12px;
-  padding: 16px;
+  border-radius: 10px;
+  padding: 12px;
   border: 1px solid rgba(255,255,255,0.3);
 }
 
 .loc-state h4 {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .loc-state h4 a {
@@ -3154,7 +3154,7 @@ header nav .cta-button:hover {
 .loc-cities {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 4px 12px;
+  gap: 2px 8px;
 }
 
 .loc-cities a {
