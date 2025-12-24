@@ -775,14 +775,6 @@ header nav .cta-button:hover {
   text-align: center;
 }
 
-.recommend-product-box .recommend-badge {
-  position: relative;
-  top: auto;
-  left: auto;
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
 .recommend-product-content {
   display: inline-flex;
   flex-direction: row;
@@ -793,6 +785,17 @@ header nav .cta-button:hover {
 
 .recommend-product-image {
   flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recommend-product-image .recommend-badge {
+  position: relative;
+  top: auto;
+  left: auto;
+  display: inline-block;
+  margin-bottom: 12px;
 }
 
 .recommend-product-image img {
@@ -2006,7 +2009,7 @@ header nav .cta-button:hover {
     font-size: 11px;
   }
 
-  .recommend-product-box .recommend-badge {
+  .recommend-product-image .recommend-badge {
     position: relative;
     top: auto;
     left: auto;
@@ -2633,7 +2636,7 @@ header nav .cta-button:hover {
     font-size: 10px;
   }
 
-  .recommend-product-box .recommend-badge {
+  .recommend-product-image .recommend-badge {
     position: relative;
     top: auto;
     left: auto;
