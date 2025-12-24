@@ -944,21 +944,6 @@ header nav .cta-button:hover {
   box-shadow: 0 6px 20px rgba(0,166,81,0.4);
 }
 
-.product-cta {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 16px;
-}
-
-.product-cta .btn-whatsapp-large,
-.product-cta .btn-phone-large {
-  width: 100%;
-  padding: 14px 20px;
-  font-size: 14px;
-  border-radius: 10px;
-}
-
 /* ===== WHY US SECTION ===== */
 .why-us-section {
   padding: 80px 0;
