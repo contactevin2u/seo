@@ -2006,6 +2006,15 @@ header nav .cta-button:hover {
     font-size: 11px;
   }
 
+  .recommend-product-box .recommend-badge {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: block;
+    margin: 0 auto 16px auto;
+    width: fit-content;
+  }
+
   .recommend-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
@@ -2622,6 +2631,15 @@ header nav .cta-button:hover {
   .recommend-badge {
     padding: 5px 10px;
     font-size: 10px;
+  }
+
+  .recommend-product-box .recommend-badge {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: block;
+    margin: 0 auto 12px auto;
+    width: fit-content;
   }
 
   .recommend-grid {
