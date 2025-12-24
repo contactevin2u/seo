@@ -767,7 +767,7 @@ header nav .cta-button:hover {
 
 /* New Recommend Section Styles */
 .recommend-product-box {
-  background: transparent;
+  background: #f0f2f5;
   border-radius: 20px;
   padding: 30px;
   margin-bottom: 24px;
