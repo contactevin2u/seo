@@ -777,10 +777,10 @@ header nav .cta-button:hover {
 
 .recommend-product-content {
   display: inline-flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  gap: 30px;
-  text-align: left;
+  gap: 20px;
+  text-align: center;
 }
 
 .recommend-product-image {
