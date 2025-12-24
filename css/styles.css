@@ -3121,7 +3121,7 @@ header nav .cta-button:hover {
 
 .locations-grid-full {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   padding: 24px;
   background: #0047b3;
@@ -3153,8 +3153,8 @@ header nav .cta-button:hover {
 
 .loc-cities {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2px 6px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px 12px;
 }
 
 .loc-cities a {
@@ -3216,7 +3216,11 @@ header nav .cta-button:hover {
 /* Responsive for expanded locations */
 @media (max-width: 1024px) {
   .locations-grid-full {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .loc-cities {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -3235,7 +3239,7 @@ header nav .cta-button:hover {
   }
 
   .loc-cities {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
