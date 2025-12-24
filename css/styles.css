@@ -1600,7 +1600,7 @@ header nav .cta-button:hover {
     display: block;
     position: relative;
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 6px;
   }
 
   .hero-product-img {
@@ -1648,7 +1648,7 @@ header nav .cta-button:hover {
     color: var(--white);
     text-align: center;
     font-style: italic;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
   }
 
   .hero-price-combined {
