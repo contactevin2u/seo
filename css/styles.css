@@ -981,7 +981,7 @@ header nav .cta-button:hover {
   font-size: 12px;
   font-weight: 600;
   border: 1px solid #e0e7ef;
-  min-width: 85px;
+  flex: 1;
   text-align: center;
 }
 
@@ -2130,7 +2130,6 @@ header nav .cta-button:hover {
   .product-specs span {
     padding: 4px 10px;
     font-size: 11px;
-    min-width: auto;
   }
 
   .product-content {
@@ -2739,7 +2738,6 @@ header nav .cta-button:hover {
   .product-specs span {
     padding: 3px 8px;
     font-size: 10px;
-    min-width: auto;
   }
 
   .product-content {
