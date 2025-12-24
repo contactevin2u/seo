@@ -2083,6 +2083,7 @@ header nav .cta-button:hover {
     flex-direction: row;
     gap: 16px;
     align-items: center;
+    text-align: left;
   }
 
   .recommend-product-image img {
@@ -2717,6 +2718,7 @@ header nav .cta-button:hover {
 
   .recommend-product-content {
     gap: 12px;
+    text-align: left;
   }
 
   .recommend-product-image img {
