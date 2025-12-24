@@ -767,7 +767,7 @@ header nav .cta-button:hover {
 
 /* New Recommend Section Styles */
 .recommend-product-box {
-  background: linear-gradient(180deg, #e8f4f8 0%, #d9eef5 100%);
+  background: transparent;
   border-radius: 20px;
   padding: 30px;
   margin-bottom: 24px;
@@ -776,6 +776,7 @@ header nav .cta-button:hover {
 
 .recommend-product-content {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   gap: 30px;
 }
@@ -785,7 +786,7 @@ header nav .cta-button:hover {
 }
 
 .recommend-product-image img {
-  max-width: 280px;
+  max-width: 320px;
   height: auto;
   filter: drop-shadow(0 8px 20px rgba(0,0,0,0.15));
 }
@@ -2038,26 +2039,27 @@ header nav .cta-button:hover {
   }
 
   .recommend-product-content {
-    flex-direction: row;
-    gap: 16px;
+    flex-direction: row-reverse;
+    gap: 12px;
     align-items: center;
   }
 
   .recommend-product-image img {
-    max-width: 140px;
+    max-width: 160px;
   }
 
   .product-label-green {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .recommend-product-info h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 8px;
   }
 
   .recommend-product-info p {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 1.4;
   }
 
   .recommend-cards {
@@ -2653,30 +2655,30 @@ header nav .cta-button:hover {
 
   /* New Recommend Section 480px */
   .recommend-product-box {
-    padding: 16px;
+    padding: 12px;
     border-radius: 12px;
   }
 
   .recommend-product-content {
-    gap: 12px;
+    gap: 10px;
   }
 
   .recommend-product-image img {
-    max-width: 120px;
+    max-width: 140px;
   }
 
   .product-label-green {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .recommend-product-info h3 {
-    font-size: 15px;
-    margin-bottom: 8px;
+    font-size: 14px;
+    margin-bottom: 6px;
   }
 
   .recommend-product-info p {
-    font-size: 12px;
-    line-height: 1.5;
+    font-size: 11px;
+    line-height: 1.4;
   }
 
   .recommend-cards {
