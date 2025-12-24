@@ -2040,14 +2040,6 @@ header nav .cta-button:hover {
     margin-bottom: 16px;
   }
 
-  .recommend-product-box .recommend-badge {
-    position: relative;
-    top: auto;
-    left: auto;
-    margin-bottom: 16px;
-    display: inline-block;
-  }
-
   .recommend-product-content {
     flex-direction: row;
     gap: 16px;
