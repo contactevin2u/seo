@@ -767,18 +767,20 @@ header nav .cta-button:hover {
 
 /* New Recommend Section Styles */
 .recommend-product-box {
-  background: rgba(255,255,255,0.4);
-  border-radius: 20px;
-  padding: 30px;
+  background: transparent;
+  border-radius: 0;
+  padding: 20px 0;
   margin-bottom: 24px;
   position: relative;
+  text-align: center;
 }
 
 .recommend-product-content {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   align-items: center;
   gap: 30px;
+  text-align: left;
 }
 
 .recommend-product-image {
@@ -2033,8 +2035,8 @@ header nav .cta-button:hover {
 
   /* New Recommend Section Mobile */
   .recommend-product-box {
-    padding: 20px 16px;
-    border-radius: 16px;
+    padding: 16px 0;
+    border-radius: 0;
     margin-bottom: 16px;
   }
 
@@ -2042,7 +2044,7 @@ header nav .cta-button:hover {
     position: relative;
     top: auto;
     left: auto;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     display: inline-block;
   }
 
