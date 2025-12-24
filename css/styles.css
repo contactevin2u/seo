@@ -802,6 +802,7 @@ header nav .cta-button:hover {
   max-width: 320px;
   height: auto;
   filter: drop-shadow(0 8px 20px rgba(0,0,0,0.15));
+  margin-top: -15px;
 }
 
 .recommend-product-info {
