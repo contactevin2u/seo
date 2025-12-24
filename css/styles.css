@@ -1166,7 +1166,7 @@ header nav .cta-button:hover {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  background: transparent;
+  background: #0047b3;
   color: var(--white);
   padding: 18px 48px;
   border-radius: 50px;
@@ -1177,14 +1177,18 @@ header nav .cta-button:hover {
   transition: all 0.25s ease;
 }
 
+.btn-phone-large svg {
+  stroke: var(--white);
+}
+
 .btn-phone-large:hover {
-  background: var(--white);
-  color: #0047b3;
+  background: #003d99;
+  color: var(--white);
   transform: translateY(-3px);
 }
 
 .btn-phone-large:hover svg {
-  stroke: #0047b3;
+  stroke: var(--white);
 }
 
 /* ===== GALLERY SECTION ===== */
