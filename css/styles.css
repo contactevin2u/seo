@@ -835,6 +835,25 @@ header nav .cta-button:hover {
   font-weight: 700;
 }
 
+/* Main Layout - Product left, Cards right */
+.recommend-main-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 32px;
+}
+
+.recommend-main-layout .recommend-product-box {
+  flex: 0 0 auto;
+  margin-bottom: 0;
+}
+
+.recommend-main-layout .recommend-cards {
+  flex: 1;
+  margin-bottom: 0;
+}
+
 /* Patient Cards */
 .recommend-cards {
   display: flex;
@@ -2083,6 +2102,11 @@ header nav .cta-button:hover {
     font-size: 13px;
     line-height: 1.5;
     max-width: 160px;
+  }
+
+  .recommend-main-layout {
+    flex-direction: column;
+    gap: 24px;
   }
 
   .recommend-cards {
