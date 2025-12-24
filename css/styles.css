@@ -618,13 +618,15 @@ header nav .cta-button:hover {
 .feature-text strong {
   font-size: 14px;
   font-weight: 800;
-  color: var(--white);
+  color: #ffbd59;
   letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-style: italic;
 }
 
 .feature-text span {
   font-size: 11px;
-  color: rgba(255,255,255,0.85);
+  color: var(--white);
   line-height: 1.5;
 }
 
@@ -885,10 +887,14 @@ header nav .cta-button:hover {
 .price-row strong {
   font-size: 20px;
   font-weight: 700;
-  color: #1a2b3c;
+  color: #0047b3;
 }
 
 .price-highlight {
+  color: #00a651 !important;
+}
+
+.price-row:first-child .price-highlight {
   color: #00a651 !important;
 }
 
@@ -1538,28 +1544,37 @@ header nav .cta-button:hover {
   }
 
   .hero-right .price-card {
-    padding: 12px 20px;
-    min-width: 140px;
+    padding: 14px 24px;
+    min-width: 150px;
     background: var(--white);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+    border-radius: 12px;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
   }
 
   .hero-right .price-label {
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 700;
     display: block;
-    margin-bottom: 2px;
+    margin-bottom: 0;
+    color: #0047b3;
   }
 
   .hero-right .price-amount strong {
-    font-size: 22px;
+    font-size: 26px;
+    font-weight: 800;
   }
 
   .hero-right .price-amount {
-    font-size: 11px;
+    font-size: 12px;
+    font-weight: 600;
   }
 
+  .hero-right .price-card:first-child .price-label,
   .hero-right .price-card:first-child .price-amount,
   .hero-right .price-card:first-child .price-amount strong {
     color: var(--secondary);
@@ -1579,13 +1594,15 @@ header nav .cta-button:hover {
   }
 
   .hero-title {
-    font-size: 28px;
-    line-height: 1.25;
+    font-size: 32px;
+    line-height: 1.2;
     margin-bottom: 12px;
+    font-weight: 800;
   }
 
   .hero h1 {
-    font-size: 28px;
+    font-size: 32px;
+    font-weight: 800;
   }
 
   .hero-subtitle {
@@ -1612,10 +1629,22 @@ header nav .cta-button:hover {
     width: 100%;
     max-width: 320px;
     justify-content: center;
-    padding: 16px 24px;
-    font-size: 15px;
-    min-height: 52px;
+    padding: 18px 28px;
+    font-size: 16px;
+    min-height: 56px;
     border-radius: 50px;
+    font-weight: 700;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  }
+
+  .btn-whatsapp {
+    background: linear-gradient(135deg, #00a651 0%, #00875a 100%);
+    border-color: #00a651;
+  }
+
+  .btn-phone {
+    background: #0047b3;
+    border: 2px solid var(--white);
   }
 
   .btn {
@@ -1680,17 +1709,20 @@ header nav .cta-button:hover {
 
   .feature-text strong {
     font-size: 11px;
-    color: var(--white);
+    color: #ffbd59;
     letter-spacing: 0.3px;
     display: block;
     line-height: 1.3;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 800;
   }
 
   .feature-text span {
     display: block;
     font-size: 10px;
     line-height: 1.3;
-    color: rgba(255,255,255,0.85);
+    color: var(--white);
   }
 
   /* Sections */
@@ -1755,7 +1787,7 @@ header nav .cta-button:hover {
 
   /* Products - Full width cards */
   .products-section {
-    padding: 60px 0 70px;
+    padding: 50px 0 60px;
   }
 
   .products-grid {
@@ -1768,13 +1800,17 @@ header nav .cta-button:hover {
     margin: 0;
     display: flex;
     flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.1);
   }
 
   .product-badge {
-    top: 12px;
-    left: 12px;
-    padding: 5px 12px;
+    top: 14px;
+    left: 14px;
+    padding: 6px 14px;
     font-size: 12px;
+    font-weight: 700;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
   }
 
   .product-image {
@@ -1812,23 +1848,35 @@ header nav .cta-button:hover {
 
   .price-row {
     padding: 12px 0;
+    border-bottom: 1px solid #e8eef3;
+  }
+
+  .price-row:last-child {
+    border-bottom: none;
   }
 
   .price-row span {
     font-size: 14px;
+    font-weight: 600;
+    color: #5a6978;
   }
 
   .price-row strong {
-    font-size: 22px;
+    font-size: 24px;
+    font-weight: 800;
   }
 
   .price-row strong small {
     font-size: 13px;
+    font-weight: 500;
   }
 
   .product-card .btn-primary {
     padding: 16px 20px;
     font-size: 15px;
+    font-weight: 700;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,166,81,0.3);
   }
 
   /* Why us */
@@ -1959,49 +2007,66 @@ header nav .cta-button:hover {
 
   /* Section headers */
   .section-header {
-    margin-bottom: 28px;
+    margin-bottom: 32px;
     padding: 0 8px;
   }
 
   .section-header h2 {
-    font-size: 22px;
-    line-height: 1.3;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 800;
+    color: #043c92;
   }
 
   .section-header p {
     font-size: 14px;
+    margin-top: 8px;
+    color: #5a6978;
   }
 
   /* CTA Section */
   .cta-section {
-    padding: 60px 0;
+    padding: 50px 0;
+    background: linear-gradient(135deg, #0052cc 0%, #003d99 100%);
   }
 
   .cta-content h2 {
-    font-size: 22px;
-    line-height: 1.3;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 800;
   }
 
   .cta-content > p {
-    font-size: 14px;
-    margin-bottom: 24px;
+    font-size: 15px;
+    margin-bottom: 28px;
+    opacity: 0.95;
   }
 
   .cta-buttons {
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 14px;
   }
 
   .cta-buttons .btn-white,
   .cta-buttons .btn-outline-white {
     width: 100%;
-    max-width: 300px;
+    max-width: 320px;
     justify-content: center;
+    padding: 16px 24px;
+    font-size: 15px;
+    font-weight: 700;
+    min-height: 54px;
+    border-radius: 50px;
+  }
+
+  .cta-buttons .btn-white {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
   }
 
   .cta-hours p {
     font-size: 12px;
+    margin-top: 20px;
   }
 
   /* Footer */
@@ -2098,13 +2163,15 @@ header nav .cta-button:hover {
   }
 
   .hero-title {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 1.2;
     margin-bottom: 10px;
+    font-weight: 800;
   }
 
   .hero h1 {
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 800;
   }
 
   .hero-left .hero-subtitle {
@@ -2175,10 +2242,12 @@ header nav .cta-button:hover {
 
   .btn-whatsapp,
   .btn-phone {
-    padding: 14px 20px;
-    font-size: 14px;
-    min-height: 48px;
+    padding: 16px 24px;
+    font-size: 15px;
+    min-height: 52px;
     max-width: 100%;
+    font-weight: 700;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.2);
   }
 
   /* Features bar - 2x3 grid on small phones */
@@ -2206,10 +2275,15 @@ header nav .cta-button:hover {
 
   .feature-text strong {
     font-size: 10px;
+    color: #ffbd59;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 800;
   }
 
   .feature-text span {
     font-size: 9px;
+    color: var(--white);
   }
 
   /* Recommend */
@@ -2468,17 +2542,21 @@ header nav .cta-button:hover {
 
   /* Section headers */
   .section-header {
-    margin-bottom: 24px;
+    margin-bottom: 28px;
     padding: 0 4px;
   }
 
   .section-header h2 {
-    font-size: 20px;
-    line-height: 1.3;
+    font-size: 22px;
+    line-height: 1.25;
+    font-weight: 800;
+    color: #043c92;
   }
 
   .section-header p {
     font-size: 13px;
+    margin-top: 6px;
+    color: #5a6978;
   }
 
   /* CTA */
@@ -2487,27 +2565,32 @@ header nav .cta-button:hover {
   }
 
   .cta-content h2 {
-    font-size: 20px;
-    line-height: 1.3;
+    font-size: 22px;
+    line-height: 1.25;
+    font-weight: 800;
   }
 
   .cta-content > p {
-    font-size: 13px;
-    margin-bottom: 20px;
+    font-size: 14px;
+    margin-bottom: 24px;
   }
 
   .cta-buttons {
-    gap: 10px;
+    gap: 12px;
   }
 
   .cta-buttons .btn-white,
   .cta-buttons .btn-outline-white {
     padding: 14px 24px;
     font-size: 14px;
+    font-weight: 700;
+    border-radius: 50px;
+    min-height: 50px;
   }
 
   .cta-hours p {
     font-size: 11px;
+    margin-top: 16px;
   }
 
   /* Footer */
@@ -2555,21 +2638,26 @@ header nav .cta-button:hover {
     display: flex;
     flex-direction: column;
     position: fixed;
-    bottom: 20px;
-    right: 16px;
+    bottom: 24px;
+    right: 18px;
     z-index: 998;
-    gap: 12px;
+    gap: 14px;
   }
 
   .mobile-sticky-cta a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 56px;
-    height: 56px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .mobile-sticky-cta a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
   }
 
   .mobile-sticky-cta a:active {
@@ -2577,19 +2665,19 @@ header nav .cta-button:hover {
   }
 
   .mobile-sticky-cta .sticky-whatsapp {
-    background: #25D366;
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
     color: var(--white);
   }
 
   .mobile-sticky-cta .sticky-call {
-    background: #0052cc;
+    background: linear-gradient(135deg, #0052cc 0%, #003d99 100%);
     color: var(--white);
     border: none;
   }
 
   .mobile-sticky-cta svg {
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
     flex-shrink: 0;
   }
 
@@ -2606,19 +2694,20 @@ header nav .cta-button:hover {
 
 @media (max-width: 480px) {
   .mobile-sticky-cta {
-    bottom: 16px;
-    right: 12px;
-    gap: 10px;
+    bottom: 18px;
+    right: 14px;
+    gap: 12px;
   }
 
   .mobile-sticky-cta a {
-    width: 52px;
-    height: 52px;
+    width: 56px;
+    height: 56px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.28);
   }
 
   .mobile-sticky-cta svg {
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
   }
 }
 
