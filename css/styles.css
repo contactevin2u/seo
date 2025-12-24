@@ -774,6 +774,13 @@ header nav .cta-button:hover {
   position: relative;
 }
 
+.recommend-product-box .recommend-badge {
+  background: transparent;
+  color: #00a651;
+  box-shadow: none;
+  border: 2px solid #00a651;
+}
+
 .recommend-product-content {
   display: flex;
   align-items: center;
@@ -2044,7 +2051,7 @@ header nav .cta-button:hover {
   }
 
   .recommend-product-image img {
-    max-width: 140px;
+    max-width: 180px;
   }
 
   .product-label-green {
@@ -2052,12 +2059,12 @@ header nav .cta-button:hover {
   }
 
   .recommend-product-info h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 8px;
   }
 
   .recommend-product-info p {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .recommend-cards {
@@ -2662,21 +2669,21 @@ header nav .cta-button:hover {
   }
 
   .recommend-product-image img {
-    max-width: 120px;
+    max-width: 150px;
   }
 
   .product-label-green {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .recommend-product-info h3 {
-    font-size: 15px;
-    margin-bottom: 8px;
+    font-size: 14px;
+    margin-bottom: 6px;
   }
 
   .recommend-product-info p {
-    font-size: 12px;
-    line-height: 1.5;
+    font-size: 11px;
+    line-height: 1.4;
   }
 
   .recommend-cards {
