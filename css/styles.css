@@ -3245,7 +3245,26 @@ header nav .cta-button:hover {
 
 @media (max-width: 480px) {
   .locations-grid-full {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .loc-state {
+    padding: 10px;
+  }
+
+  .loc-state h4 a {
+    font-size: 0.85rem;
+  }
+
+  .loc-cities {
     grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .loc-cities a {
+    font-size: 11px;
   }
 }
 
