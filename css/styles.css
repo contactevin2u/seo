@@ -930,6 +930,7 @@ header nav .cta-button:hover {
   position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid #e8eef3;
+  text-align: center;
 }
 
 .product-card:hover {
@@ -938,9 +939,9 @@ header nav .cta-button:hover {
 }
 
 .product-badge {
-  position: absolute;
-  top: 14px;
-  left: 14px;
+  position: relative;
+  top: auto;
+  left: auto;
   background: linear-gradient(135deg, #00a651 0%, #00875a 100%);
   color: var(--white);
   padding: 6px 14px;
@@ -949,6 +950,10 @@ header nav .cta-button:hover {
   font-weight: 600;
   font-style: italic;
   z-index: 5;
+  display: inline-block;
+  margin: 15px auto 0;
+  text-align: center;
+  width: fit-content;
 }
 
 .badge-pro {
@@ -2128,12 +2133,16 @@ header nav .cta-button:hover {
   }
 
   .product-badge {
+    position: absolute;
     top: 14px;
     left: 14px;
     padding: 6px 14px;
     font-size: 12px;
     font-weight: 700;
     box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    margin: 0;
+    display: inline-block;
+    width: auto;
   }
 
   .product-image {
