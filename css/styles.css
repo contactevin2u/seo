@@ -544,6 +544,31 @@ header nav .cta-button:hover {
   gap: 14px;
 }
 
+/* New Mobile Hero Styles */
+.hero-tagline {
+  display: none;
+}
+
+.hero-product {
+  display: none;
+}
+
+.hero-price-tagline {
+  display: none;
+}
+
+.hero-price-combined {
+  display: none;
+}
+
+.hero-cta-stack {
+  display: none;
+}
+
+.hero-desktop-only {
+  display: grid;
+}
+
 /* ===== FEATURES BAR ===== */
 .features-bar {
   position: relative;
@@ -1531,217 +1556,219 @@ header nav .cta-button:hover {
     padding: 0 16px;
   }
 
-  /* Hero section - Mobile layout - Cleaner vertical flow */
+  /* Hero section - Mobile layout - New Canva Design */
   .hero {
-    padding: 24px 0 50px;
+    padding: 24px 0 40px;
   }
 
   .hero-badge-center {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
   }
 
   .location-badge {
-    font-size: 11px;
-    padding: 5px 14px;
+    font-size: 12px;
+    padding: 8px 20px;
+    background: rgba(255,189,89,0.95);
+    color: #1a1a2e;
+    font-weight: 600;
+    border: none;
   }
 
-  .hero-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-    margin-top: 55px;
+  /* Hide desktop layout on mobile */
+  .hero-desktop-only {
+    display: none !important;
   }
 
-  .hero-left {
-    margin-left: 0;
-    text-align: center;
-    order: 3;
-    width: 100%;
-  }
-
-  .hero-left .hero-subtitle {
+  /* Show mobile-specific elements */
+  .hero-tagline {
     display: block;
-    font-size: 13px;
-    line-height: 1.4;
-    margin-bottom: 20px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 14px;
+    color: var(--white);
     text-align: center;
-    position: absolute;
-    top: 155px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 24px;
     padding: 0 10px;
   }
 
-  .hero-left .hero-cta {
-    width: 100%;
+  .hero-tagline .text-highlight {
+    color: #99fbff;
+    font-weight: 600;
   }
 
-  /* Image centered with KKM on left */
-  .hero-center {
-    order: 1;
-    width: 100%;
+  .hero-product {
+    display: block;
     position: relative;
+    text-align: center;
+    margin-bottom: 16px;
   }
 
-  .hero-center img {
+  .hero-product-img {
     max-height: 280px;
     width: auto;
     display: block;
     margin: 0 auto;
+    filter: drop-shadow(0 10px 30px rgba(0,0,0,0.25));
   }
 
-  .hero-right {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    order: 2;
-    width: 100%;
-    gap: 16px;
-  }
-
-  /* KKM Logo - LEFT side of image, above price card */
-  .hero-right .hero-trust-badge {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
+  .hero-product-badges {
     position: absolute;
-    left: 18%;
-    top: 45%;
+    left: 8%;
+    top: 50%;
     transform: translateY(-50%);
     z-index: 10;
   }
 
-  .hero-right .hero-trust-badge img {
-    max-width: 70px;
-    height: auto;
-    margin-bottom: 4px;
-  }
-
-  .hero-right .hero-trust-badge .trust-text {
-    font-size: 7px;
-    line-height: 1.2;
-    max-width: 75px;
-    text-align: center;
-  }
-
-  /* Price cards - horizontal on mobile */
-  .hero-right .hero-prices {
-    flex-direction: row;
-    gap: 12px;
-    background: transparent;
-    padding: 0;
-    box-shadow: none;
-    max-width: 100%;
-  }
-
-  .hero-right .price-card {
-    padding: 14px 24px;
-    min-width: 150px;
-    background: var(--white);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.18);
-    border-radius: 12px;
-    flex: 1;
+  .kkm-badge-left {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2px;
   }
 
-  .hero-right .price-label {
-    font-size: 13px;
+  .kkm-badge-left img {
+    max-width: 70px;
+    height: auto;
+    margin-bottom: 6px;
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.2));
+  }
+
+  .kkm-badge-left p {
+    font-size: 7px;
     font-weight: 700;
+    color: var(--white);
+    text-align: center;
+    line-height: 1.3;
+    text-transform: uppercase;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+
+  .hero-price-tagline {
     display: block;
-    margin-bottom: 0;
-    color: #0047b3;
+    font-size: 16px;
+    color: var(--white);
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 16px;
   }
 
-  .hero-right .price-amount strong {
-    font-size: 26px;
-    font-weight: 800;
+  .hero-price-combined {
+    display: flex;
+    background: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 340px;
+    margin: 0 auto 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.18);
   }
 
-  .hero-right .price-amount {
-    font-size: 12px;
+  .price-side {
+    flex: 1;
+    padding: 14px 20px;
+    text-align: center;
+  }
+
+  .price-side .price-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+
+  .price-side .price-value {
+    font-size: 13px;
     font-weight: 600;
   }
 
-  .hero-right .price-card:first-child .price-label,
-  .hero-right .price-card:first-child .price-amount,
-  .hero-right .price-card:first-child .price-amount strong {
-    color: var(--secondary);
+  .price-side .price-value strong {
+    font-size: 24px;
+    font-weight: 800;
   }
 
-  .hero-text {
-    text-align: center;
-    order: 2;
+  .price-sewa .price-label,
+  .price-sewa .price-value,
+  .price-sewa .price-value strong {
+    color: #00a651;
   }
 
-  .hero-image {
-    order: 1;
+  .price-beli .price-label,
+  .price-beli .price-value,
+  .price-beli .price-value strong {
+    color: #0047b3;
   }
 
-  .hero-image img {
-    max-height: 220px;
+  .price-divider {
+    width: 1px;
+    background: #e0e0e0;
+  }
+
+  .hero-cta-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .btn-whatsapp-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 340px;
+    padding: 18px 32px;
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+    color: var(--white);
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    box-shadow: 0 6px 20px rgba(37,211,102,0.35);
+    transition: all 0.25s ease;
+  }
+
+  .btn-whatsapp-hero:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(37,211,102,0.45);
+  }
+
+  .btn-phone-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 340px;
+    padding: 18px 32px;
+    background: #0047b3;
+    color: var(--white);
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    box-shadow: 0 6px 20px rgba(0,71,179,0.35);
+    transition: all 0.25s ease;
+  }
+
+  .btn-phone-hero:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,71,179,0.45);
   }
 
   .hero-title {
-    font-size: 32px;
+    font-size: 28px;
     line-height: 1.2;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     font-weight: 800;
   }
 
   .hero h1 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 800;
-  }
-
-  .hero-subtitle {
-    font-size: 14px;
-    max-width: 100%;
-    text-align: center;
-    margin: 0 auto 24px;
-  }
-
-  .hero-cta {
-    align-items: center;
-    gap: 12px;
   }
 
   .hero-badge {
     font-size: 12px;
     padding: 0 20px;
     height: 30px;
-  }
-
-  /* CTA Buttons - improved touch targets */
-  .btn-whatsapp,
-  .btn-phone {
-    width: 100%;
-    max-width: 320px;
-    justify-content: center;
-    padding: 18px 28px;
-    font-size: 16px;
-    min-height: 56px;
-    border-radius: 50px;
-    font-weight: 700;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-  }
-
-  .btn-whatsapp {
-    background: linear-gradient(135deg, #00a651 0%, #00875a 100%);
-    border-color: #00a651;
-  }
-
-  .btn-phone {
-    background: #0047b3;
-    border: 2px solid var(--white);
   }
 
   .btn {
@@ -2270,109 +2297,92 @@ header nav .cta-button:hover {
 
   /* Hero - Small phones */
   .hero {
-    padding: 20px 0 40px;
+    padding: 20px 0 36px;
   }
 
   .hero-badge-center {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
 
   .location-badge {
-    font-size: 10px;
-    padding: 4px 12px;
-  }
-
-  .hero-content {
-    gap: 16px;
-    margin-top: 50px;
+    font-size: 11px;
+    padding: 6px 16px;
   }
 
   .hero-title {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1.2;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-weight: 800;
   }
 
   .hero h1 {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 800;
   }
 
-  .hero-left .hero-subtitle {
-    font-size: 12px;
-    line-height: 1.4;
-    max-width: 100%;
-    margin-bottom: 16px;
-    top: 135px;
-    width: 100%;
-    padding: 0 8px;
+  .hero-tagline {
+    font-size: 13px;
+    margin-bottom: 20px;
   }
 
-  .hero-center img {
-    max-height: 230px;
+  .hero-product-img {
+    max-height: 240px;
   }
 
-  .hero-image img {
-    max-height: 180px;
+  .hero-product-badges {
+    left: 5%;
   }
 
-  /* Price cards side by side on small phones */
-  .hero-right .hero-prices {
-    flex-direction: row;
-    gap: 8px;
-  }
-
-  .hero-right .price-card {
-    padding: 10px 14px;
-    min-width: 0;
-    flex: 1;
-  }
-
-  .hero-right .price-label {
-    font-size: 11px;
-  }
-
-  .hero-right .price-amount strong {
-    font-size: 18px;
-  }
-
-  .hero-right .price-amount {
-    font-size: 10px;
-  }
-
-  .hero-right .hero-trust-badge {
-    left: 12%;
-    top: 42%;
-  }
-
-  .hero-right .hero-trust-badge img {
-    max-width: 55px;
-  }
-
-  .hero-right .hero-trust-badge .trust-text {
-    font-size: 6px;
+  .kkm-badge-left img {
     max-width: 60px;
+  }
+
+  .kkm-badge-left p {
+    font-size: 6px;
+  }
+
+  .hero-price-tagline {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+
+  .hero-price-combined {
+    max-width: 300px;
+    margin-bottom: 18px;
+  }
+
+  .price-side {
+    padding: 12px 16px;
+  }
+
+  .price-side .price-label {
+    font-size: 12px;
+  }
+
+  .price-side .price-value {
+    font-size: 12px;
+  }
+
+  .price-side .price-value strong {
+    font-size: 20px;
+  }
+
+  .hero-cta-stack {
+    gap: 10px;
+  }
+
+  .btn-whatsapp-hero,
+  .btn-phone-hero {
+    max-width: 300px;
+    padding: 16px 28px;
+    font-size: 15px;
   }
 
   .hero-badge {
     font-size: 10px;
     padding: 0 14px;
     height: 26px;
-  }
-
-  .hero-cta {
-    gap: 10px;
-  }
-
-  .btn-whatsapp,
-  .btn-phone {
-    padding: 16px 24px;
-    font-size: 15px;
-    min-height: 52px;
-    max-width: 100%;
-    font-weight: 700;
-    box-shadow: 0 5px 18px rgba(0,0,0,0.2);
   }
 
   /* Features bar - 2x3 grid on small phones */
