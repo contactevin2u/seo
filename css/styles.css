@@ -775,6 +775,14 @@ header nav .cta-button:hover {
   text-align: center;
 }
 
+.recommend-product-box .recommend-badge {
+  position: relative;
+  top: auto;
+  left: auto;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .recommend-product-content {
   display: inline-flex;
   flex-direction: row;
