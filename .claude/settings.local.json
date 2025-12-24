@@ -12,7 +12,8 @@
       "Bash(powershell -Command \"$files = Get-ChildItem -Recurse -Filter ''*.html''; foreach \\($file in $files\\) { $content = Get-Content $file.FullName -Raw -Encoding UTF8; $newContent = $content -replace ''class=\"\"btn btn-white btn-lg\"\"'', ''class=\"\"btn btn-whatsapp-large\"\"''; if \\($content -ne $newContent\\) { Set-Content -Path $file.FullName -Value $newContent -NoNewline -Encoding UTF8 } }\")",
       "Bash(powershell -ExecutionPolicy Bypass -File update-cta.ps1)",
       "Bash(powershell -ExecutionPolicy Bypass -File add-recommend-section.ps1:*)",
-      "Bash(git revert:*)"
+      "Bash(git revert:*)",
+      "Bash(powershell -ExecutionPolicy Bypass -File add-why-section.ps1)"
     ],
     "deny": [],
     "ask": []
