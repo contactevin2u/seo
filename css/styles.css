@@ -776,7 +776,7 @@ header nav .cta-button:hover {
 
 .recommend-product-content {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
   gap: 30px;
 }
@@ -2039,7 +2039,7 @@ header nav .cta-button:hover {
   }
 
   .recommend-product-content {
-    flex-direction: row-reverse;
+    flex-direction: row;
     gap: 12px;
     align-items: center;
   }
