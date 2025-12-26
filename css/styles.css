@@ -601,7 +601,7 @@ header nav .cta-button:hover {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 12px;
   background: #043c92;
   padding: 14px 24px;
