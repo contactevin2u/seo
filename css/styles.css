@@ -4047,6 +4047,29 @@ header nav .cta-button:hover {
   color: var(--primary);
 }
 
+/* Locations grid white version for blue background */
+.locations-grid-white .loc-state h4,
+.locations-grid-white .loc-state h4 a {
+  color: var(--white);
+}
+
+.locations-grid-white .loc-cities a {
+  color: rgba(255,255,255,0.9);
+}
+
+.locations-grid-white .loc-cities a:hover {
+  color: var(--white);
+}
+
+.locations-grid-white .loc-cities .pin::before {
+  color: rgba(255,255,255,0.7);
+}
+
+.service-areas .locations-cta {
+  text-align: center;
+  margin-top: 24px;
+}
+
 .service-areas .features-grid,
 .features .features-grid {
   display: grid;
