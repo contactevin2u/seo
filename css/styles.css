@@ -4024,6 +4024,29 @@ header nav .cta-button:hover {
   border-color: rgba(255,255,255,0.5);
 }
 
+.service-areas .areas-cta {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.btn-outline-white {
+  display: inline-block;
+  padding: 14px 32px;
+  background: transparent;
+  color: var(--white);
+  border: 2px solid var(--white);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-white:hover {
+  background: var(--white);
+  color: var(--primary);
+}
+
 .service-areas .features-grid,
 .features .features-grid {
   display: grid;
