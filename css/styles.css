@@ -4007,7 +4007,21 @@ header nav .cta-button:hover {
 }
 
 .service-areas .area-card {
-  background: var(--white);
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.service-areas .area-card h4 {
+  color: var(--white);
+}
+
+.service-areas .area-card p {
+  color: rgba(255,255,255,0.8);
+}
+
+.service-areas .area-card:hover {
+  background: rgba(255,255,255,0.2);
+  border-color: rgba(255,255,255,0.5);
 }
 
 .service-areas .features-grid,
