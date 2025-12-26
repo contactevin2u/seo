@@ -734,7 +734,7 @@
         if (href && !href.startsWith('#') && !href.startsWith('tel:') && !href.startsWith('https://wa.me') && !href.startsWith('mailto:') && this.hostname === window.location.hostname) {
           e.preventDefault();
           document.body.classList.add('fade-out');
-          setTimeout(() => { window.location = href; }, 300);
+          setTimeout(() => { window.location = href; }, 150);
         }
       });
     });
