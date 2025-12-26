@@ -3994,7 +3994,20 @@ header nav .cta-button:hover {
 
 /* State pages - Service areas grid */
 .service-areas {
-  padding-top: 60px;
+  padding: 60px 0;
+  background: var(--primary);
+}
+
+.service-areas .section-header h2 {
+  color: var(--white);
+}
+
+.service-areas .section-header p {
+  color: rgba(255,255,255,0.85);
+}
+
+.service-areas .area-card {
+  background: var(--white);
 }
 
 .service-areas .features-grid,
