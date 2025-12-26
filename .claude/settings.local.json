@@ -13,7 +13,16 @@
       "Bash(powershell -ExecutionPolicy Bypass -File update-cta.ps1)",
       "Bash(powershell -ExecutionPolicy Bypass -File add-recommend-section.ps1:*)",
       "Bash(git revert:*)",
-      "Bash(powershell -ExecutionPolicy Bypass -File add-why-section.ps1)"
+      "Bash(powershell -ExecutionPolicy Bypass -File add-why-section.ps1)",
+      "Bash(powershell -ExecutionPolicy Bypass -File reorder-sections.ps1)",
+      "Bash(del \"C:\\\\Users\\\\SGH625S0P4\\\\Documents\\\\oxygen concentrator website\\\\seo\\\\reorder-sections.ps1\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File:*)",
+      "Bash(del \"C:\\\\Users\\\\SGH625S0P4\\\\Documents\\\\oxygen concentrator website\\\\seo\\\\update-products-heading.ps1\")",
+      "Bash(powershell -Command \"Remove-Item ''update-products-heading.ps1''\")",
+      "Bash(del fix-features-bar.ps1)",
+      "Bash(del update-hero-section.ps1)",
+      "Bash(powershell -Command:*)",
+      "WebFetch(domain:oxygen-concentrator.my)"
     ],
     "deny": [],
     "ask": []
