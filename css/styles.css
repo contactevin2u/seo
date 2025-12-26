@@ -2246,7 +2246,7 @@ header nav .cta-button:hover {
   }
 
   .why-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 14px;
   }
 
@@ -2275,7 +2275,7 @@ header nav .cta-button:hover {
   }
 
   .why-cta {
-    flex-direction: column;
+    flex-direction: column !important;
     margin-top: 40px;
     gap: 14px;
   }
@@ -2852,7 +2852,7 @@ header nav .cta-button:hover {
   }
 
   .why-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px;
   }
 
@@ -2882,7 +2882,7 @@ header nav .cta-button:hover {
   }
 
   .why-cta {
-    flex-direction: column;
+    flex-direction: column !important;
     margin-top: 32px;
     gap: 12px;
   }
