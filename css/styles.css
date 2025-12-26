@@ -3926,6 +3926,72 @@ header nav .cta-button:hover {
   }
 }
 
+/* FAQ Accordion */
+.faq-accordion {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item-accordion {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.faq-question-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+  transition: background 0.2s ease;
+}
+
+.faq-question-btn:hover {
+  background: var(--bg);
+}
+
+.faq-question-btn span {
+  flex: 1;
+  padding-right: 16px;
+}
+
+.faq-icon {
+  transition: transform 0.3s ease;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.faq-item-accordion.active .faq-icon {
+  transform: rotate(180deg);
+}
+
+.faq-answer-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faq-item-accordion.active .faq-answer-content {
+  max-height: 300px;
+}
+
+.faq-answer-content p {
+  padding: 0 24px 20px;
+  margin: 0;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
 /* State pages - Service areas grid */
 .service-areas {
   padding-top: 60px;

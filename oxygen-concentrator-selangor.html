@@ -600,18 +600,33 @@
         <p>Jawapan kepada soalan yang sering ditanya</p>
       </div>
 
-      <div class="faq-grid">
-        <div class="faq-item">
-          <h3>Berapa lama penghantaran oxygen concentrator ke Selangor?</h3>
-          <p><strong>Same-day delivery</strong> untuk seluruh Selangor. Tempahan sebelum 2PM akan dihantar pada hari yang sama. Untuk kawasan jauh seperti Rawang atau Semenyih, mungkin mengambil masa sedikit lebih lama.</p>
+      <div class="faq-accordion">
+        <div class="faq-item-accordion">
+          <button class="faq-question-btn">
+            <span>Berapa lama penghantaran oxygen concentrator ke Selangor?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer-content">
+            <p><strong>Same-day delivery</strong> untuk seluruh Selangor. Tempahan sebelum 2PM akan dihantar pada hari yang sama. Untuk kawasan jauh seperti Rawang atau Semenyih, mungkin mengambil masa sedikit lebih lama.</p>
+          </div>
         </div>
-        <div class="faq-item">
-          <h3>Adakah caj penghantaran untuk kawasan Selangor?</h3>
-          <p><strong>Penghantaran percuma</strong> untuk seluruh Selangor termasuk PJ, Shah Alam, Subang, Klang, Kajang, Puchong, dan kawasan lain.</p>
+        <div class="faq-item-accordion">
+          <button class="faq-question-btn">
+            <span>Adakah caj penghantaran untuk kawasan Selangor?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer-content">
+            <p><strong>Penghantaran percuma</strong> untuk seluruh Selangor termasuk PJ, Shah Alam, Subang, Klang, Kajang, Puchong, dan kawasan lain.</p>
+          </div>
         </div>
-        <div class="faq-item">
-          <h3>Bolehkah saya pickup sendiri di kedai?</h3>
-          <p>Ya, anda boleh <strong>pickup sendiri</strong> di lokasi kami. Sila hubungi kami terlebih dahulu untuk membuat temujanji dan memastikan stok tersedia.</p>
+        <div class="faq-item-accordion">
+          <button class="faq-question-btn">
+            <span>Bolehkah saya pickup sendiri di kedai?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer-content">
+            <p>Ya, anda boleh <strong>pickup sendiri</strong> di lokasi kami. Sila hubungi kami terlebih dahulu untuk membuat temujanji dan memastikan stok tersedia.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -713,6 +728,14 @@
         link.addEventListener('click', closeMenu);
       });
     })();
+
+    // FAQ Accordion
+    document.querySelectorAll('.faq-question-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const item = this.parentElement;
+        item.classList.toggle('active');
+      });
+    });
   </script>
 </body>
 </html>
