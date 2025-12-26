@@ -3995,7 +3995,7 @@ header nav .cta-button:hover {
 /* State pages - Service areas grid */
 .service-areas {
   padding: 60px 0;
-  background: var(--primary-dark);
+  background: #0047b3;
 }
 
 .service-areas .section-header h2 {
@@ -4068,6 +4068,18 @@ header nav .cta-button:hover {
 .service-areas .locations-cta {
   text-align: center;
   margin-top: 24px;
+}
+
+.service-areas .locations-grid-full {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.service-areas .loc-state {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.3);
 }
 
 .service-areas .features-grid,
