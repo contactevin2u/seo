@@ -3847,6 +3847,68 @@ header nav .cta-button:hover {
   }
 }
 
+/* Delivery Proof Section */
+.delivery-proof-section {
+  padding: 60px 0;
+  background: var(--white);
+}
+
+.delivery-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.delivery-item {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  aspect-ratio: 1;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.delivery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.delivery-item:hover img {
+  transform: scale(1.05);
+}
+
+.delivery-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  color: var(--white);
+  padding: 24px 12px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .delivery-gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .delivery-label {
+    font-size: 11px;
+    padding: 16px 8px 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .delivery-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* State pages - Service areas grid */
 .service-areas {
   padding-top: 60px;
